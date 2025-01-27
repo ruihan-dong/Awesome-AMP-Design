@@ -1,5 +1,5 @@
 # Awesome-AMP-Design
-Designing antimicrobial peptides (AMPs) is awesome.
+Designing antimicrobial peptides (AMPs) is awesome. A list of relevant works (with comments).
 
 🧨 Last Update 25-01-27
 
@@ -8,7 +8,7 @@ Designing antimicrobial peptides (AMPs) is awesome.
 ### Contents
 
 - [Preprints](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#preprints)
-- [Comprehensive works](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#comprehensive-works)
+- [Comprehensive works](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#comprehensive-works-with-comments)
 - [Review](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#review)
 - [Generators](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#generators)
 - [Predictors](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#predictors)
@@ -19,6 +19,7 @@ Designing antimicrobial peptides (AMPs) is awesome.
     - 🎈Our latest work
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
     - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
+    
 - *Unveiling the evolution of antimicrobial peptides in gut microbes via foundation model-powered framework (bioRixv 2025 | [code](https://github.com/zjlab-BioGene/AMP-SEMiner))*
     - The model is the fine-tuned ESM-2. Structure clustering and conservation analysis are included.
 - *Discovery of antibiotics in the archaeome using deep learning (bioRxiv 2025 | [code](https://gitlab.com/machine-biology-group-public/apex-pathogen))*
@@ -57,10 +58,11 @@ Designing antimicrobial peptides (AMPs) is awesome.
     - For the gradient-based explanation and evolution, two AMPs with known analogs were used for validation (but it looks like this part was from a reviewer). And the motif recognition part is useful.
     - Six peptides were tested with N/C-amidation. But only one peptide went through animal tests and mechanism tests.
     - Maybe the unfortunate part is ‘virtual evolution’. It’s not very clear how to choose initial sequences and their evolved results. The sequences and mutations in this process can also be discussed.
-- *Screening and identification of antimicrobial peptides from the gut microbiome of cockroach*
-*Blattella germanica (Microbiome 2025 | [code](https://github.com/ChenSizhe13893461199/Fast-AMPs-Discovery-Projects))*
+      
+- *Screening and identification of antimicrobial peptides from the gut microbiome of cockroach Blattella germanica (Microbiome 2025 | [code](https://github.com/ChenSizhe13893461199/Fast-AMPs-Discovery-Projects))*
     - It’s interesting to find modifications between the biorxiv version and the published version. For example, AF2 structure of AMP1 in biorxiv is an alpha-helix and AF3 structure is a beta-sheet.
     - I think the cell-free synthesis screening is meaningless - it’s easy to test 5 chemically synthesized peptides. I guess this part is added following the Nat Commun paper.
+    
 - *ProT-Diff: A Modularized and Efficient Strategy for De Novo Generation of Antimicrobial Peptide Sequences by Integrating Protein Language and Diffusion Models (Adv Sci 2024)*
     - Diffusion in ProtT5 embedding space. Success rate is high for a generative model (44/45).
 - *Bioprospecting of culturable marine biofilm bacteria for novel antimicrobial peptides (iMeta 2024 | [code](https://github.com/FAFFASS/AMP_prediction))*
@@ -123,6 +125,7 @@ Designing antimicrobial peptides (AMPs) is awesome.
 - *Improving functional protein generation via foundation model-derived latent space likelihood optimization (AAAI 2025)*
     - Similar to knowledge distillation with hard and soft label losses.
     - As a conference paper, not many validations are included.
+      
 - *TG-CDDPM: text-guided antimicrobial peptides generation based on conditional denoising diffusion probabilistic model (Brief Bioinformatics 2025 | [code](https://github.com/JunhangCao/TG-CDDPM))*
 - *Diff-AMP: tailored designed antimicrobial peptide framework with all-in-one generation, identification, prediction and optimization (Brief Bioinformatics 2024 | [code](https://github.com/wrab12/diff-amp))*
 - *A Multi-Modal Contrastive Diffusion Model for Therapeutic Peptide Generation (AAAI 2024)*
@@ -146,6 +149,7 @@ Designing antimicrobial peptides (AMPs) is awesome.
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
 
 - *deep-AMPpred: A Deep Learning Method for Identifying Antimicrobial Peptides and Their Functional Activities (J Chem Inf Model 2025 | [code](https://github.com/JunZhao-hash/deep-AMPpred))*
+  
 - *sAMP-VGG16: Force-field assisted image-based deep neural network prediction model for short antimicrobial peptides (Proteins 2025)*
     - I remember I saw this preprint two or three years ago. It’s interesting to use force field parameters as feature encodings.
 - *An ensemble deep learning model for predicting minimum inhibitory concentrations of antimicrobial peptides against pathogenic bacteria (iScience 2024 | [code](https://github.com/chungcr/esAMPMIC))*
