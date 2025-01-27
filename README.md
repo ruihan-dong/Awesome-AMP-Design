@@ -5,7 +5,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
-### Contents
+## Contents
 
 - [Preprints](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#preprints)
 - [Comprehensive works](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#comprehensive-works-with-comments)
@@ -13,9 +13,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - [Generators](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#generators)
 - [Predictors](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#predictors)
 
----
 
-### Preprints
+
+## Preprints
 
 - *Painting Peptides with Antimicrobial Potency through Deep Reinforcement Learning (**bioRxiv 2025**)*
     - 🎈Our latest work
@@ -44,9 +44,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor (**arXiv 2024**)*
 - *Key-cutting machine: A novel optimization framework for tailored protein and peptide design (**bioRxiv 2025**)*
 
----
 
-### Comprehensive works (with comments)
+
+## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
@@ -104,7 +104,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ---
 
-### Review
+## Review
 
 - *AI Methods for Antimicrobial Peptides: Progress and Challenges (**Microbial Biotechnology 2025**)*
 - *Machine learning for antimicrobial peptide identification and design (**Nat Rev Bio Eng 2024**)*
@@ -117,9 +117,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *Comprehensive assessment of machine learning-based methods for predicting antimicrobial peptides (**Brief Bioinformatics 2021**)*
 - *Computational Methods and Tools in Antimicrobial Peptide Research (**J Chem Inf Model 2021**)*
 
----
 
-### Generators
+
+## Generators
 
 - *Improving functional protein generation via foundation model-derived latent space likelihood optimization (**AAAI 2025**)*
     - Similar to knowledge distillation with hard and soft label losses.
@@ -140,9 +140,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *AMPGAN v2: Machine Learning-Guided Design of Antimicrobial Peptides (**J Chem Inf Model 2021**)*
 - *PepVAE: Variational Autoencoder Framework for Antimicrobial Peptide Generation and Activity Prediction (**Front Microbiol 2021**)*
 
----
 
-### Predictors
+
+## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
 
