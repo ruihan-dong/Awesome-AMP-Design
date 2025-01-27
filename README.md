@@ -102,7 +102,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - An important work in the field of AMP mining/designing. You can see the impact of this paper in other papers such as the model framework, the figure style, etc.
 - *Mining for encrypted peptide antibiotics in the human proteome (**Nat Biomed Eng 2022**)*
 
----
+
 
 ## Review
 
