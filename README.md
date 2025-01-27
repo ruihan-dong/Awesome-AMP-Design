@@ -7,11 +7,11 @@ Designing antimicrobial peptides (AMPs) is awesome.
 
 ### Contents
 
-- Preprints
-- Comprehensive works (with comments)
-- Review
-- ML Generators
-- ML Predictors
+- [Preprints](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#preprints)
+- [Comprehensive works](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#comprehensive-works)
+- [Review](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#review)
+- [Generators](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#generators)
+- [Predictors](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#predictors)
 
 ### Preprints
 
@@ -118,10 +118,9 @@ Designing antimicrobial peptides (AMPs) is awesome.
 
 ---
 
-### ML Generators
+### Generators
 
-- *Improving functional protein generation via foundation model-derived latent*
-*space likelihood optimization (AAAI 2025)*
+- *Improving functional protein generation via foundation model-derived latent space likelihood optimization (AAAI 2025)*
     - Similar to knowledge distillation with hard and soft label losses.
     - As a conference paper, not many validations are included.
 - *TG-CDDPM: text-guided antimicrobial peptides generation based on conditional denoising diffusion probabilistic model (Brief Bioinformatics 2025 | [code](https://github.com/JunhangCao/TG-CDDPM))*
@@ -142,11 +141,11 @@ Designing antimicrobial peptides (AMPs) is awesome.
 
 ---
 
-### ML Predictors
+### Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
 
-- *deep-AMPpred: A Deep Learning Method for Identifying Antimicrobial Peptides and Their Functional Activities (J Chem Inf Model 2025 \ [code](https://github.com/JunZhao-hash/deep-AMPpred))*
+- *deep-AMPpred: A Deep Learning Method for Identifying Antimicrobial Peptides and Their Functional Activities (J Chem Inf Model 2025 | [code](https://github.com/JunZhao-hash/deep-AMPpred))*
 - *sAMP-VGG16: Force-field assisted image-based deep neural network prediction model for short antimicrobial peptides (Proteins 2025)*
     - I remember I saw this preprint two or three years ago. It’s interesting to use force field parameters as feature encodings.
 - *An ensemble deep learning model for predicting minimum inhibitory concentrations of antimicrobial peptides against pathogenic bacteria (iScience 2024 | [code](https://github.com/chungcr/esAMPMIC))*
