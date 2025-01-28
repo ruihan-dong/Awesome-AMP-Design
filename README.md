@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-🧨 Last Update 25-01-27
+🧨 Last Update 25-01-28
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -43,14 +43,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design (**arXiv 2024**)*
 - *MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor (**arXiv 2024**)*
 - *Key-cutting machine: A novel optimization framework for tailored protein and peptide design (**bioRxiv 2025**)*
-
+- *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
 
 
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
-- *Explainable deep learning and virtual evolution identifies antimicrobial peptides with activity against multidrug-resistant human pathogens (**Nat Microbial 2025** | [code](https://github.com/MicroResearchLab/AMP-potency-prediction-EvoGradient))*
+- *Explainable deep learning and virtual evolution identifies antimicrobial peptides with activity against multidrug-resistant human pathogens (**Nat Microbiol 2025** | [code](https://github.com/MicroResearchLab/AMP-potency-prediction-EvoGradient))*
     - The ensemble model is simple (and perhaps referred to NBT 2022), but the details are appreciated:
         - Adding a loss focusing on precision
         - Randomly removing the starting ‘M’ of negative sequences from Uniprot
@@ -72,6 +72,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *Deep mutational scanning and machine learning for the analysis of antimicrobial-peptide features driving membrane selectivity (**Nat Biomed Eng 2024**)*
     - It’s really important to focus on the membrane selectivity of AMPs. In this work, they proposed a method (dmSLAY) to measure this feature of protegrin-1 variants and find some new variants with good specificity.
     - But I’m curious why this article can be published on NBE. For example, figure 2 is hard to analyze and draw a conclusion between secondary structure and MIC.
+- *Computational Design of Pore-Forming Peptides with Potent Antimicrobial and Anticancer Activities (**J Med Chem 2024**)*
+  - Design pore-forming AMPs based on coarse-grained MD simulations. 
 - *Discovery of antimicrobial peptides in the global microbiome with machine learning (**Cell 2024**)*
     - I’m not familiar with genome analysis but no doubt this part is the highlight of this article.
 - *Mining human microbiomes reveals an untapped source of peptide antibiotics (**Cell 2024**)*
