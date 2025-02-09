@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-🧨 Last Update 25-01-29
+⛄ Last Update 25-02-09
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -49,6 +49,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Artificial intelligence using a latent diffusion model enables the generation of diverse and potent antimicrobial peptides (**Sci Adv 2025** | [code](https://github.com/Wangyj2023/PepDiffusion))*
+    - Generally, the article is well-written
+    - Transformer VAE with latent diffusion, to generate antibacterial or antifungal peptides.
+    - No description of clustering (only a sentence *“clustering based on their interactions with membranes”*. I didn’t find any other details in the methods section).
+        - Something was missed in MD procedure: the initial conformation of peptide and membrane and the definition of peptide-membrane distance (why negative value means peptides away from membrane?)
+        - The standard of selecting top 40 candidate peptides is ambiguous
+    - *“The simulation results demonstrated that both peptides bind the lipid membrane in parallel, which is consistent with the toroidal pore model”* — how can authors draw this conclusion from a simulation system with only one peptide? Parallel binding is the first step of different membrane-lysis mechanisms, not only the barrel-stave but the toroidal pore models.
 
 - *Explainable deep learning and virtual evolution identifies antimicrobial peptides with activity against multidrug-resistant human pathogens (**Nat Microbiol 2025** | [code](https://github.com/MicroResearchLab/AMP-potency-prediction-EvoGradient))*
     - The ensemble model is simple (and perhaps referred to NBT 2022), but the details are appreciated:
@@ -149,6 +157,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *Prediction of inhibitory peptides against E.coli with desired MIC value (**Sci Rep 2025**)*
+
+- *MSCMamba: Prediction of Antimicrobial Peptide Activity Values by Fusing Multiscale Convolution with Mamba Module (**J Phys Chem B 2025**)*
+    - As a regression model, they didn’t mention other regression works
+    - Retrain other classifiers as regression models when benchmarking
+    - Self-processed data from GRAMPA, but they didn't mention either the length distribution,  modifications, or logMIC label
+    - Unfortunately, no available code or server
 
 - *deep-AMPpred: A Deep Learning Method for Identifying Antimicrobial Peptides and Their Functional Activities (**J Chem Inf Model 2025** | [code](https://github.com/JunZhao-hash/deep-AMPpred))*
   
