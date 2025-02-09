@@ -50,6 +50,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Deep Learning Combined with Quantitative Structure‒Activity Relationship Accelerates De Novo Design of Antifungal Peptides (**Adv Sci 2025** | [code](https://github.com/DongYin521/AFP_DL-QSARES))*
+
 - *Artificial intelligence using a latent diffusion model enables the generation of diverse and potent antimicrobial peptides (**Sci Adv 2025** | [code](https://github.com/Wangyj2023/PepDiffusion))*
     - Generally, the article is well-written
     - Transformer VAE with latent diffusion, to generate antibacterial or antifungal peptides.
