@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-⛄ Last Update 25-02-09
+⛄ Last Update 25-02-11
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -135,6 +135,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *Directed Evolutionary of Peptides using Multi-Objective Zeroth-Order Optimization (**Brief Bioinformatics 2025** | [code](https://github.com/chen-bioinfo/PepZOO))*
+  - PepZOO, ZOO for zeroth-order optimization (use VAE latent space)
+  - Two tasks, AMP (being AMP and MIC activity) and AVP (target binding affinity and toxicity)
+    - Two objects for AMP task should be designed more carefully. Why not toxicity or diversity? $$P_{AMP}$$ and $$P_{MIC}$$ are highly related and we only care about highly active ones.
+  - A work following HydrAMP.
+
 - *Improving functional protein generation via foundation model-derived latent space likelihood optimization (**AAAI 2025**)*
     - Similar to knowledge distillation with hard and soft label losses.
     - As a conference paper, not many validations are included.
@@ -173,6 +179,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *sAMP-VGG16: Force-field assisted image-based deep neural network prediction model for short antimicrobial peptides (**Proteins 2025**)*
     - I remember I saw this preprint two or three years ago. It’s interesting to use force field parameters as feature encodings.
 - *An ensemble deep learning model for predicting minimum inhibitory concentrations of antimicrobial peptides against pathogenic bacteria (**iScience 2024** | [code](https://github.com/chungcr/esAMPMIC))*
+- *iMFP-LG: Identification of Novel Multi-Functional Peptides by Using Protein Language Models and Graph-Based Deep Learning (**Genomics, proteomics & bioinformatics 2024** | [code](https://github.com/chen-bioinfo/iMFP-LG))*
+  - Multifunctional prediction with graph node classification
+  - Also have a screening and validation part
 - *Screening antimicrobial peptides and probiotics using multiple deep learning and directed evolution strategies (**Acta Pharm Sin B 2024**)*
 - *Predicting Antimicrobial Peptides Using ESMFold-Predicted Structures and ESM-2-Based Amino Acid Features with Graph Deep Learning (**J Chem Inf Model 2024** | [code](https://github.com/cicese-biocom/esm-AxP-GDL))*
 - *PGAT-ABPp: harnessing protein language models and graph attention networks for antibacterial peptide identification with remarkable accuracy (**Bioinformatics 2024** | [code](https://github.com/moonseter/PGAT-ABPp))*
