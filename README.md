@@ -136,6 +136,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *A Conditional Denoising VAE-based Framework for Antimicrobial Peptides Generation with Preserving Desirable Properties (**Bioinformatics 2025** | [code](https://github.com/David-WZhao/PPGC-DVAE))*
+  - Why put all the necessary results in SI?
+  - Add a property preserving loss (MSE) when training VAE.
+
 - *Directed Evolutionary of Peptides using Multi-Objective Zeroth-Order Optimization (**Brief Bioinformatics 2025** | [code](https://github.com/chen-bioinfo/PepZOO))*
   - PepZOO, ZOO for zeroth-order optimization (use VAE latent space)
   - Two tasks, AMP (being AMP and MIC activity) and AVP (target binding affinity and toxicity)
