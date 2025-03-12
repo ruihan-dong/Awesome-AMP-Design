@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-⛄ Last Update 25-02-16
+🦆 Last Update 25-03-12
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -37,9 +37,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Not many experiments. I think it’s good to test positive and negative controls in MIC tests.
 - *Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and finetuned few-shot learning-based pipeline (**Research Square 2024**)*
     - The subsequent work of *Nat Biomed Eng* 2023, focusing on *A.baumannii*.
-- *A foundation model approach to guide antimicrobial peptide design in the era of artificial intelligence driven scientific discovery (**arXiv 2024** | [code](https://github.com/jkwang93/AMP-Designer))*
-    - Looks like a twin of MCMG.
-    - The application case of *P. acnes* is interesting and useful.
 - *HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design (**arXiv 2024**)*
 - *MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor (**arXiv 2024**)*
 - *Key-cutting machine: A novel optimization framework for tailored protein and peptide design (**bioRxiv 2025**)*
@@ -49,6 +46,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Machine learning-driven discovery of highly selective antifungal peptides containing non-canonical β-amino acids (**Chem Sci 2025** | [code](https://github.com/jdrichardson97/Peptide-GPR))*
+    - Interactive computational and experimtental iteration with GPR model.
+    - Building ML models for chemical modifications is the future trend.
+      
+- *Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model (**Sci Adv 2025** | [code](https://github.com/jkwang93/AMP-Designer))*
+    - Looks like a twin of MCMG.
+    - The application case of *P. acnes* is interesting and useful.
+    - I prefer this article's originial title which highlighted the 'foundation model'. Their MIC results do not display 'notable antibacterial potency'. 
 
 - *Deep Learning Combined with Quantitative Structure‒Activity Relationship Accelerates De Novo Design of Antifungal Peptides (**Adv Sci 2025** | [code](https://github.com/DongYin521/AFP_DL-QSARES))*
 
@@ -170,6 +176,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *Leveraging protein language models for robust antimicrobial peptide detection (**Methods 2025** | [code](https://github.com/lichaozhang2/PLAPD))*
 
 - *Prediction of inhibitory peptides against E.coli with desired MIC value (**Sci Rep 2025**)*
 
