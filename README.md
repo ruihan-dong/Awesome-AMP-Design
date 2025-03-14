@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-🦆 Last Update 25-03-12
+🦆 Last Update 25-03-14
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -46,6 +46,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *De novo design of self-assembling peptides with antimicrobial activity guided by deep learning (**Nat Mater 2025** | [code](https://github.com/LiuHuayang27/TransSAFP))*
+    - Introduces 11 N-terminal modification blocks for peptides.
+    - Could not be claimed as ‘de novo design’ - it’s a screening process guided by a classifier, not generation.
+    - I think the relationship between ‘self-assembling’ and ‘antimicrobial’ can be discussed more. In this article, these two features of most screened peptides have been validated separately. At least, this shows the effectiveness of their transfer learning strategy (pretrain on AMP and finetune on self-assembling peptide). As for p45, self-assembling events occur before binding to membranes. Then what’s its mechanism? Barrel-stave or toroidal-pore? Since we often think the oligomerization could be influenced by membrane environments, is there any difference for the peptides which can self-assemble in solution?
 
 - *Machine learning-driven discovery of highly selective antifungal peptides containing non-canonical β-amino acids (**Chem Sci 2025** | [code](https://github.com/jdrichardson97/Peptide-GPR))*
     - Interactive computational and experimtental iteration with GPR model.
@@ -100,7 +105,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Molecular de-extinction is also a great concept.
 - *Exploring the repository of de novo designed bifunctional antimicrobial peptides through deep learning (**eLife 2024** | [code](https://github.com/ruihan-dong/GAN-for-AMP-Design))*
     - 🎈This work is part of my undergraduate thesis.
-    - Revised version (not updated in eLife yet) [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.23.581845v2): 24 generated peptides have been tested. All these peptides are antibacterial (inhibiting multi-resistant A.baumannii) and about 60% showed antiviral activity on HSV-1 virus. Several peptides got MICs of less than 1 uM against MDRAB.
+    - 24 generated peptides have been tested. All these peptides are antibacterial (inhibiting multi-resistant A.baumannii) and about 60% showed antiviral activity on HSV-1 virus. Several peptides got MICs of less than 1 uM against MDRAB.
     - However, the pipeline of selecting bifunctional peptides is not clear. The MD simulation parts are very preliminary.
 - *Cell-free biosynthesis combined with deep learning accelerates de novo-development of antimicrobial peptides (**Nat Commun 2023** | [code](https://github.com/amirpandi/Deep_AMP))*
     - The cell-free system is attractive.
