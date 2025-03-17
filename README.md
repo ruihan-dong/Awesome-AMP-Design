@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-🦆 Last Update 25-03-14
+🌸 Last Update 25-03-17
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -181,6 +181,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *BERT-AmPEP60: A BERT-Based Transfer Learning Approach to Predict the Minimum Inhibitory Concentrations of Antimicrobial Peptides for Escherichia coli and Staphylococcus aureus （**J Chem Inf Model 2025** | [code](https://github.com/janecai0714/AMP_regression_EC_SA))*
+  - Regression on MIC against Ec and Sa
+  - Has Ala/Lys scanning tests
 
 - *Leveraging protein language models for robust antimicrobial peptide detection (**Methods 2025** | [code](https://github.com/lichaozhang2/PLAPD))*
 
