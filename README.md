@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments) .
 
-🌸 Last Update 25-03-17
+🌸 Last Update 25-04-06
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -46,6 +46,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *AI-Guided Design of Antimicrobial Peptide Hydrogels for Precise Treatment of Drug-resistant Bacterial Infections (**Adv Mater 2025**)
+    - An application of AMP-Designer (AMP-Hydrogel-Designer).
+    - Cys is supported. But only one peptide is reported. 
 
 - *De novo design of self-assembling peptides with antimicrobial activity guided by deep learning (**Nat Mater 2025** | [code](https://github.com/LiuHuayang27/TransSAFP))*
     - Introduces 11 N-terminal modification blocks for peptides.
