@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍃 Last Update 25-04-14
+🌷**Last Update** 25-04-22
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -22,6 +22,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
     - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
 
+- *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
+    - A flow-matching generative model with AMP generation as a task.
+      
 - *Design of highly potent anti-biofilm, antimicrobial peptides using explainable artificial intelligence (**bioRxiv 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
     - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
 - *Unveiling the evolution of antimicrobial peptides in gut microbes via foundation model-powered framework (**bioRxiv 2025** | [code](https://github.com/zjlab-BioGene/AMP-SEMiner))*
@@ -39,7 +42,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Not many experiments. I think it’s good to test positive and negative controls in MIC tests.
 - *Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and finetuned few-shot learning-based pipeline (**Research Square 2024**)*
     - The subsequent work of *Nat Biomed Eng* 2023, focusing on *A.baumannii*.
-- *HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design (**arXiv 2024**)*
 - *MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor (**arXiv 2024**)*
 - *Key-cutting machine: A novel optimization framework for tailored protein and peptide design (**bioRxiv 2025**)*
 - *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
@@ -48,6 +50,13 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *CPL-Diff: A Diffusion Model for De Novo Design of Functional Peptide Sequences with Fixed Length (**Adv Sci 2025** | [code](https://github.com/luozhenjie1997/CPL-Diff))*
+    - I’m really surprised fixed length control can be the main motivation of a sequence generation model in 2025 now…
+    - The other motivation, to generate peptide with specific function, haven’t been validated in this paper. It is quite likely to generate AMPs with antibacterial, antiviral, and antifungal functions at the same time with only trained on AMP dataset. And this paper didn’t include any wet-lab validation of selectivity.
+    - ⁉️ The authors might be influenced by MMCD to use docking validation. Again, LPS is not a protein… 1,3-beta-glucan is not the name of protein as well… What’s the meaning of docking a predicted peptide structure and a manually picked target?
+    - Use pLDDT as an evaluation metric for AMP generation?
+    - Some analysis figures are redundant.
 
 - *Rapid Response Antimicrobial Peptide Design Strategy Driven by Meta-Learning for Emerging Drug-Resistant Pathogens (**J Med Chem 2025** | [code](https://github.com/lennonyu11234/Archeologist_RR-ADS))*
     - Font makes figures really difficult to read… The score legends of scatters and heatmaps are missing.
@@ -60,7 +69,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *De novo design of self-assembling peptides with antimicrobial activity guided by deep learning (**Nat Mater 2025** | [code](https://github.com/LiuHuayang27/TransSAFP))*
     - Introduces 11 N-terminal modification blocks for peptides.
     - Could not be claimed as ‘de novo design’ - it’s a screening process guided by a classifier, not generation.
-    - No independent test set for the evaluation of fine-tuned model. 
+    - ⁉️ No independent test set for the evaluation of fine-tuned model. Successful rate was only calculated on antimicrobial activity, even most sequences were known AMPs adding N-termial modifications.
     - I think the relationship between ‘self-assembling’ and ‘antimicrobial’ can be discussed more. In this article, these two features of most screened peptides have been validated separately. At least, this shows the effectiveness of their transfer learning strategy (pretrain on AMP and finetune on self-assembling peptide). As for p45, self-assembling events occur before binding to membranes. Then what’s its mechanism? Barrel-stave or toroidal-pore? Since we often think the oligomerization could be influenced by membrane environments, is there any difference for the peptides which can self-assemble in solution?
 
 - *Machine learning-driven discovery of highly selective antifungal peptides containing non-canonical β-amino acids (**Chem Sci 2025** | [code](https://github.com/jdrichardson97/Peptide-GPR))*
@@ -157,6 +166,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design (**J Med Chem 2025** | [code](https://github.com/wl-wl/HMAMP-main))*
 
 - *SQ-DiffuPep: A multimodal information-guided quantitative latent diffusion model for antimicrobial peptide discovery (**Inform Fusion 2025** | [code](https://github.com/Zoigin/SQ-DiffuPep))*
 
