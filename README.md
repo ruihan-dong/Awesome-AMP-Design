@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌷**Last Update** 25-04-22
+🧚**Last Update** 25-05-07
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -21,6 +21,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - 🎈Our latest work
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
     - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
+
+- *PepSeek: Universal Functional Peptide Discovery with Cooperation Between Specialized Deep Learning Models and Large Language Model (**bioRxiv 2025**)*
+    - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
+    - Reward function of reinforcement learning model is really complex. How can we define the optimal value of each physicochemical property?
+    - Experimental sections are for AMPs rather than different kinds of functional peptides.
 
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
@@ -205,6 +210,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *AMPCliff: Quantitative definition and benchmarking of activity cliffs in antimicrobial peptides (**J Adv Res 2025** | [code](https://github.com/Kewei2023/AMPCliff))*
+  - Meaningful discussions.
 
 - *BERT-AmPEP60: A BERT-Based Transfer Learning Approach to Predict the Minimum Inhibitory Concentrations of Antimicrobial Peptides for Escherichia coli and Staphylococcus aureus （**J Chem Inf Model 2025** | [code](https://github.com/janecai0714/AMP_regression_EC_SA))*
   - Regression on MIC against Ec and Sa
