@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🧚**Last Update** 25-05-07
+🍭 **Last Update** 25-05-11
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -56,6 +56,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Harnessing advanced computational approaches to design novel antimicrobial peptides against intracellular bacterial infections (**Bioactive Materials 2025**)*
+    - A repurposing work for cell-penetrating peptides as AMPs. Only one effective peptide is reported, whose MIC values are not attracting.
+    - A relatively complete MD study on pure POPC or POPG/POPE membranes.
+    
 - *CPL-Diff: A Diffusion Model for De Novo Design of Functional Peptide Sequences with Fixed Length (**Adv Sci 2025** | [code](https://github.com/luozhenjie1997/CPL-Diff))*
     - I’m really surprised fixed length control can be the main motivation of a sequence generation model in 2025 now…
     - The other motivation, to generate peptide with specific function, haven’t been validated in this paper. It is quite likely to generate AMPs with antibacterial, antiviral, and antifungal functions at the same time with only trained on AMP dataset. And this paper didn’t include any wet-lab validation of selectivity.
