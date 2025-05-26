@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍭 **Last Update** 25-05-11
+🍀 **Last Update** 25-05-11
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -21,6 +21,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - 🎈Our latest work
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
     - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
+ 
+- *AI-Guided Discovery and Optimization of Antimicrobial Peptides Through Species-Aware Language Model (**bioRxiv 2025**)*
+    - A species-aware MIC predictor from the AMP-BERT team, by adding genomes from different species
+    - I was attracted by the title ‘discovery and optimization’ but I didn’t find any newly discovered or optimized AMPs in the manuscript…
 
 - *PepSeek: Universal Functional Peptide Discovery with Cooperation Between Specialized Deep Learning Models and Large Language Model (**bioRxiv 2025**)*
     - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
@@ -29,6 +33,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
+ 
+- *AI-Driven Antimicrobial Peptide Discovery: Mining and Generation (**ChemRxiv 2025**)*
       
 - *Design of highly potent anti-biofilm, antimicrobial peptides using explainable artificial intelligence (**bioRxiv 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
     - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
