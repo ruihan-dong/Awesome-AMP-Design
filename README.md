@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍀 **Last Update** 25-05-11
+🍸 **Last Update** 25-05-27
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -164,6 +164,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Tutorial: guidelines for the use of machine learning methods to mine genomes and proteomes for antibiotic discovery (**Nat Protocols 2025**)*
 - *Deep Learning for Antimicrobial Peptides: Computational Models and Databases (**J Chem Inf Model 2025**)*
 - *Leveraging large language models for peptide antibiotic design (**Cell Rep Phys Sci 2025**)*
 - *Challenges and applications of artificial intelligence in infectious diseases and antimicrobial resistance (**npj Antimicrob Resist 2025**)*
