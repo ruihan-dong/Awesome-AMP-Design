@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍸 **Last Update** 25-05-27
+🍧 **Last Update** 25-06-06
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -33,13 +33,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
- 
-- *AI-Driven Antimicrobial Peptide Discovery: Mining and Generation (**ChemRxiv 2025**)*
       
 - *Design of highly potent anti-biofilm, antimicrobial peptides using explainable artificial intelligence (**bioRxiv 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
     - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
-- *Unveiling the evolution of antimicrobial peptides in gut microbes via foundation model-powered framework (**bioRxiv 2025** | [code](https://github.com/zjlab-BioGene/AMP-SEMiner))*
-    - The model is the fine-tuned ESM-2. Structure clustering and conservation analysis are included.
+
 - *Discovery of antibiotics in the archaeome using deep learning (**bioRxiv 2025** | [code](https://gitlab.com/machine-biology-group-public/apex-pathogen))*
 - *Venomics AI: a computational exploration of global venoms for antibiotic discovery (**bioRxiv 2025**)*
 - *Design of multimodal antibiotics against intracellular infections using deep learning (**bioRxiv 2024** | [code](https://gitlab.com/machine-biology-group-public/apex_duo))*
@@ -61,6 +58,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Unveiling the evolution of antimicrobial peptides in gut microbes via foundation model-powered framework (**Cell Rep 2025** | [code](https://github.com/zjlab-BioGene/AMP-SEMiner))*
+    - Develop a residue-level AMP predictor (fine-tuning ESM2) to directly mine encrypted AMPs from proteomes, instead of simply focusing on smORFs or proteolytic fragments. The computational validation is systematic.
+    - In vitro successful rate of 9/20 is not that good. Btw the selection criteria are not very clear (similar to many other works), e.g., rule 1 (2+ Cys) covers rule 2 (3+ Cys).
+    - Structural clustering confuses me since the short length limits the structural diversity of peptides. Peptides also exhibit flexible conformations under different environments. Can FoldSeek handle such short peptides well?
+    - It’s interesting to analyze the adaptive evolution of AMPs interacting with the environment, and there are a lot of things that warrant further exploration.
 
 - *Harnessing advanced computational approaches to design novel antimicrobial peptides against intracellular bacterial infections (**Bioactive Materials 2025**)*
     - A repurposing work for cell-penetrating peptides as AMPs. Only one effective peptide is reported, whose MIC values are not attracting.
@@ -164,6 +167,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *AI-Driven Antimicrobial Peptide Discovery: Mining and Generation (**Acc. Chem. Res. 2025**)*
+  - A review written by famous experts in current AMP area.
+
 - *Tutorial: guidelines for the use of machine learning methods to mine genomes and proteomes for antibiotic discovery (**Nat Protocols 2025**)*
 - *Deep Learning for Antimicrobial Peptides: Computational Models and Databases (**J Chem Inf Model 2025**)*
 - *Leveraging large language models for peptide antibiotic design (**Cell Rep Phys Sci 2025**)*
@@ -182,6 +188,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *AMPGen: an evolutionary informationreserved and diffusion-driven generative model for de novo design of antimicrobial peptides (**Commun Biol 2025** | [code](https://github.com/xiyanxiongnico/AMPGen))*
+  - The motivation is ‘hard to design such short peptides with flexible structures’. I think the introduction part lacks an overview of current AMP generation methods. Maybe AMPGen is just an application of EvoDiff.
+  - Looks like the figure style is influenced by Nat Commun article (cell-free).
+  - Results showed that MSA-conditional model performs the best.
 
 - *HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design (**J Med Chem 2025** | [code](https://github.com/wl-wl/HMAMP-main))*
 
@@ -221,6 +232,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *Multimodal geometric learning for antimicrobial peptide identification by leveraging alphafold2-predicted structures and surface features (**Brief Bioinfor 2025** | [code](https://github.com/ggcameronnogg/SSFGM-Model))*
+    - Add surface information from MaSIF
 
 - *AMPCliff: Quantitative definition and benchmarking of activity cliffs in antimicrobial peptides (**J Adv Res 2025** | [code](https://github.com/Kewei2023/AMPCliff))*
   - Meaningful discussions.
