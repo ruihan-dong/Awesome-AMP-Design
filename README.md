@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍧 **Last Update** 25-06-06
+🧊 **Last Update** 25-06-19
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -37,6 +37,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *Design of highly potent anti-biofilm, antimicrobial peptides using explainable artificial intelligence (**bioRxiv 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
     - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
 
+- *Proteasome-derived antimicrobial peptides discovered via deep learning (**bioRxiv 2025**)*
 - *Discovery of antibiotics in the archaeome using deep learning (**bioRxiv 2025** | [code](https://gitlab.com/machine-biology-group-public/apex-pathogen))*
 - *Venomics AI: a computational exploration of global venoms for antibiotic discovery (**bioRxiv 2025**)*
 - *Design of multimodal antibiotics against intracellular infections using deep learning (**bioRxiv 2024** | [code](https://gitlab.com/machine-biology-group-public/apex_duo))*
@@ -169,7 +170,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *AI-Driven Antimicrobial Peptide Discovery: Mining and Generation (**Acc. Chem. Res. 2025**)*
   - A review written by famous experts in current AMP area.
-
+- *Machine Learning-Assisted Prediction and Generation of Antimicrobial Peptides (**Small Sci 2025**)*
+- *From Membrane Composition to Antimicrobial Strategies: Experimental and Computational Approaches to AMP Design and Selectivity （**Small 2025**)*
 - *Tutorial: guidelines for the use of machine learning methods to mine genomes and proteomes for antibiotic discovery (**Nat Protocols 2025**)*
 - *Deep Learning for Antimicrobial Peptides: Computational Models and Databases (**J Chem Inf Model 2025**)*
 - *Leveraging large language models for peptide antibiotic design (**Cell Rep Phys Sci 2025**)*
@@ -189,6 +191,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *From AI to action: Antimicrobial peptides engineered by generative adversarial networks (GANs)-A novel approach to combat resistant Bacteria (**Chem Eng J 2025** | [code](https://github.com/lsbnb/amp_gan))*
+  
 - *AMPGen: an evolutionary informationreserved and diffusion-driven generative model for de novo design of antimicrobial peptides (**Commun Biol 2025** | [code](https://github.com/xiyanxiongnico/AMPGen))*
   - The motivation is ‘hard to design such short peptides with flexible structures’. I think the introduction part lacks an overview of current AMP generation methods. Maybe AMPGen is just an application of EvoDiff.
   - Looks like the figure style is influenced by Nat Commun article (cell-free).
