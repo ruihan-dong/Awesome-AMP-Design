@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🧊 **Last Update** 25-06-19
+🌡️ **Last Update** 25-07-05
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -59,6 +59,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Uncovering encrypted antimicrobial peptides in health-associated Lactobacillaceae by large-scale genomics and machine learning (**Microbiome 2025**)*
+- *BroadAMP-GPT: AI-Driven generation of broadspectrum antimicrobial peptides for combating multidrug-resistant ESKAPE pathogens (**Gut Microbes 2025** | [code](https://github.com/LYRHeidi/BroadAMP-GPT))*
+    - Figure style looks like NBT 2022
+    - ❓”*S. aureus ATCC 29,213, E. coli ATCC 25,922*” Is the comma introduced in proof reading procedure? They appeared many times throughout the article…
+    - ❓Randomly select 15 peptides for experimental validation. The authors reported a success rate of 57%, but how was it calculated?
+    - ❓Surprisingly, MIC prediction models are all classifiers for ‘low-MIC’ or ‘high-MIC’ groups. Why did authors choose different thresholds (16 μg/mL for *E.coli* and 32 μg/mL for *S.aureus*)? To balance positive and negative samples?
+    - Two peptides were tested with several antibiotic-susceptible and antibiotic-resistant strains.
+    - The x-axis label of Fig.5 d-e should not be ‘times’. The units of both x and y axis are missing.
 
 - *Unveiling the evolution of antimicrobial peptides in gut microbes via foundation model-powered framework (**Cell Rep 2025** | [code](https://github.com/zjlab-BioGene/AMP-SEMiner))*
     - Develop a residue-level AMP predictor (fine-tuning ESM2) to directly mine encrypted AMPs from proteomes, instead of simply focusing on smORFs or proteolytic fragments. The computational validation is systematic.
@@ -236,6 +245,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *AmpHGT: expanding prediction of antimicrobial activity in peptides containing non‑canonical amino acids using multi‑view constrained heterogeneous graph transformer (**BMC biology 2025** | [code](https://github.com/AledHe/AmpHGT))*
+    - Sequence-level embedding is still extracted from ESM-2, with <mask> for NCAAs
+    - ❓On plain AMP classification datasets, the proposed model cannot outperform any other methods
+    - Using the ‘overlap’ NCAA dataset is meaningful
 
 - *Multimodal geometric learning for antimicrobial peptide identification by leveraging alphafold2-predicted structures and surface features (**Brief Bioinfor 2025** | [code](https://github.com/ggcameronnogg/SSFGM-Model))*
     - Add surface information from MaSIF
