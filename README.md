@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌡️ **Last Update** 25-07-05
+🪐 **Last Update** 25-07-13
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -17,7 +17,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Preprints
 
-- *Painting Peptides with Antimicrobial Potency through Deep Reinforcement Learning (**bioRxiv 2025**)*
+- *Painting Peptides with Antimicrobial Potency through Deep Reinforcement Learning (**bioRxiv 2025** | [code](https://github.com/ComputBiophys/AMPainter))*
     - 🎈Our latest work
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
     - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
@@ -39,7 +39,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *Proteasome-derived antimicrobial peptides discovered via deep learning (**bioRxiv 2025**)*
 - *Discovery of antibiotics in the archaeome using deep learning (**bioRxiv 2025** | [code](https://gitlab.com/machine-biology-group-public/apex-pathogen))*
-- *Venomics AI: a computational exploration of global venoms for antibiotic discovery (**bioRxiv 2025**)*
+
 - *Design of multimodal antibiotics against intracellular infections using deep learning (**bioRxiv 2024** | [code](https://gitlab.com/machine-biology-group-public/apex_duo))*
     - Multimodal represents cell-penetration and AMP - Did they consider that many known AMPs are already cell-penetration peptides?
     - The training set of cell-penetration predictor is weird - added toxic peptides into the negative set
@@ -59,6 +59,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Computational exploration of global venoms for antimicrobial discovery with Venomics artificial intelligence (**Nat Commun 2025**)*
 
 - *Uncovering encrypted antimicrobial peptides in health-associated Lactobacillaceae by large-scale genomics and machine learning (**Microbiome 2025**)*
 - *BroadAMP-GPT: AI-Driven generation of broadspectrum antimicrobial peptides for combating multidrug-resistant ESKAPE pathogens (**Gut Microbes 2025** | [code](https://github.com/LYRHeidi/BroadAMP-GPT))*
@@ -177,6 +179,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Antimicrobial peptides: structure, functions and translational applications (**Nat Rev Microbiol 2025**)*
+- *Deep Learning in Antimicrobial Peptide Prediction (**J Chem Inf Model 2025**)*
 - *AI-Driven Antimicrobial Peptide Discovery: Mining and Generation (**Acc. Chem. Res. 2025**)*
   - A review written by famous experts in current AMP area.
 - *Machine Learning-Assisted Prediction and Generation of Antimicrobial Peptides (**Small Sci 2025**)*
