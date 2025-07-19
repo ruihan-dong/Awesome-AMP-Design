@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🪐 **Last Update** 25-07-13
+⛅ **Last Update** 25-07-19
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -22,9 +22,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
     - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
  
-- *AI-Guided Discovery and Optimization of Antimicrobial Peptides Through Species-Aware Language Model (**bioRxiv 2025**)*
-    - A species-aware MIC predictor from the AMP-BERT team, by adding genomes from different species
-    - I was attracted by the title ‘discovery and optimization’ but I didn’t find any newly discovered or optimized AMPs in the manuscript…
+- *Large language models enable high-throughputmining and generation of antimicrobial peptidesagainst clinical superbugs (**Research Square 2025** | [code](https://github.com/W1V1995/AMP_Project))*
+    - Large-scale tested peptides (196) with a success rate of 73%.
+    - Nothing special from the computational perspective. Some figure factors are directly from NBE 2023 or NBT 2022...
 
 - *PepSeek: Universal Functional Peptide Discovery with Cooperation Between Specialized Deep Learning Models and Large Language Model (**bioRxiv 2025**)*
     - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
@@ -250,12 +250,16 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
 
+- *AI-Guided Discovery and Optimization of Antimicrobial Peptides Through Species-Aware Language Model (**Brief Bioinform 2025** | [code](https://github.com/GIST-CSBL/LLAMP))*
+    - A species-aware MIC predictor from the AMP-BERT team, by adding genomes from different species
+    - It's interesting that the authors didn't put experimental results in bioRxiv manuscript
+
 - *AmpHGT: expanding prediction of antimicrobial activity in peptides containing non‑canonical amino acids using multi‑view constrained heterogeneous graph transformer (**BMC biology 2025** | [code](https://github.com/AledHe/AmpHGT))*
     - Sequence-level embedding is still extracted from ESM-2, with <mask> for NCAAs
     - ❓On plain AMP classification datasets, the proposed model cannot outperform any other methods
     - Using the ‘overlap’ NCAA dataset is meaningful
 
-- *Multimodal geometric learning for antimicrobial peptide identification by leveraging alphafold2-predicted structures and surface features (**Brief Bioinfor 2025** | [code](https://github.com/ggcameronnogg/SSFGM-Model))*
+- *Multimodal geometric learning for antimicrobial peptide identification by leveraging alphafold2-predicted structures and surface features (**Brief Bioinform 2025** | [code](https://github.com/ggcameronnogg/SSFGM-Model))*
     - Add surface information from MaSIF
 
 - *AMPCliff: Quantitative definition and benchmarking of activity cliffs in antimicrobial peptides (**J Adv Res 2025** | [code](https://github.com/Kewei2023/AMPCliff))*
