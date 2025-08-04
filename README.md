@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-⛅ **Last Update** 25-07-19
+💧 **Last Update** 25-08-04
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -30,6 +30,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
     - Reward function of reinforcement learning model is really complex. How can we define the optimal value of each physicochemical property?
     - Experimental sections are for AMPs rather than different kinds of functional peptides.
+      
+- *Predicting and generating antibiotics against future pathogens with ApexOracle (**arXiv 2025** | [code](https://github.com/DragonDescentZerotsu/ApexOracle))*
+    - An upgrade of their APEX MIC predictor, with strain genome and text.
 
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
@@ -203,6 +206,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *A Unified Peptide Generative Framework via a Weakly Order-Dependent Autoregressive Language Model and Lifelong Learning (**J Chem Inf Model 2025** | [code](https://github.com/ZhiweiNiepku/PepGenWL))*
 
 - *From AI to action: Antimicrobial peptides engineered by generative adversarial networks (GANs)-A novel approach to combat resistant Bacteria (**Chem Eng J 2025** | [code](https://github.com/lsbnb/amp_gan))*
   
