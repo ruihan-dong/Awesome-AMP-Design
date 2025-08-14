@@ -66,6 +66,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *A Multi-Property Optimizing Generative Adversarial Network for de novo Antimicrobial Peptide Design (**Adv Sci 2025** | [code](https://github.com/23AIBox/MPOGAN))*
     - Add a figure for experments. I think it’s good to test positive and negative controls in MIC tests.
+    - ❓ I think their experimental results can only partially reflect the generative capability of MPOGAN. They sampled up to 50,000 candidate seqs and used complex filtering rules, including several antimicrobial predictors, a toxicity predictor, as well as a large number of physicochemical rules and a well-defined length-based score. If we randomly sample 50,000 sequences using these rules, we can also get some good AMPs. 
 
 - *Computational exploration of global venoms for antimicrobial discovery with Venomics artificial intelligence (**Nat Commun 2025**)*
 
