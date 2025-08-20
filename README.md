@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-😶‍🌫️ **Last Update** 25-08-14
+🤧 **Last Update** 25-08-20
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -66,6 +66,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *A Multi-Property Optimizing Generative Adversarial Network for de novo Antimicrobial Peptide Design (**Adv Sci 2025** | [code](https://github.com/23AIBox/MPOGAN))*
     - Add a figure for experments. I think it’s good to test positive and negative controls in MIC tests.
+    - ❓ The numbers of sequences of each generative model are not consistent when comparing in Fig. 2. 
     - ❓ I think their experimental results can only partially reflect the generative capability of MPOGAN. They sampled up to 50,000 candidate seqs and used complex filtering rules, including several antimicrobial predictors, a toxicity predictor, as well as a large number of physicochemical rules and a well-defined length-based score. If we randomly sample 50,000 sequences using these rules, we can also get some good AMPs. 
 
 - *Computational exploration of global venoms for antimicrobial discovery with Venomics artificial intelligence (**Nat Commun 2025**)*
@@ -212,6 +213,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *AMPGP: Discovering Highly Effective Antimicrobial Peptides via Deep Learning (**J Chem Inf Model 2025** | [code](http://github.com/Wu0805/AMPgeneration-prediction))*
 
 - *A Unified Peptide Generative Framework via a Weakly Order-Dependent Autoregressive Language Model and Lifelong Learning (**J Chem Inf Model 2025** | [code](https://github.com/ZhiweiNiepku/PepGenWL))*
 
