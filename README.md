@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🤧 **Last Update** 25-08-20
+🔺 **Last Update** 25-09-03
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -60,6 +60,19 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Generative latent diffusion language modeling yields anti-infective synthetic peptides (**Cell Biomaterials 2025**)*
+    - Experimental validation of the AMP-Diffusion model. Assembly line work.
+
+- *From AI-driven sequence generation to molecular simulation: a comprehensive framework for antimicrobial peptide discovery (**J Chem Inf Model 2025**)*
+    - Recently there are lots of GAN model for AMP, lol.
+    - But this paper focus on a pipeline instead of its ‘naive’ GAN model. The authors designed three MD procedures to screen out AMP candidates, including peptide in water, membrane, and a larger membrane system. Why putting peptides in both sides of the membrane?
+    - It’s good to provide both the positive (known AMP) and negative (non-AMP) controls for MD pipeline. According to my (limited) experience, it’s quite easy to pass MD2 (distance) while quite difficult to pass MD3 (water permeation). I have to say that running 2 us all-atom simulation is not suitable for screening.
+    
+- *Evaluation of LLM-generated peptide as foundation template for discovery of effective encrypted AMPs against clinical superbugs (**Microbiol Spectr 2025**)*
+    - A successive work of AMPGenix (which is still on Research Square)
+    - Using alignment to extract homologs with similar functions is a traditional approach. But here using generative template to extract ‘encrypted AMPs’ rather than screening out them raised an attractive concept, even though the generative model played no actual role.
+    - Abundant experiments are mainly for only one peptide, PL-15.
 
 - *Deep learning reveals antibiotics in the archaeal proteome (**Nat Microbiol 2025** | [code](https://gitlab.com/machine-biology-group-public/apex-pathogen))*
     - APEX 1.1
