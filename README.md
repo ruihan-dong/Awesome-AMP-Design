@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🔺 **Last Update** 25-09-03
+🥱 **Last Update** 25-09-10
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -16,11 +16,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
-
-- *Painting Peptides with Antimicrobial Potency through Deep Reinforcement Learning (**bioRxiv 2025** | [code](https://github.com/ComputBiophys/AMPainter))*
-    - 🎈Our latest work
-    - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
-    - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
  
 - *Large language models enable high-throughput mining and generation of antimicrobial peptidesagainst clinical superbugs (**Research Square 2025** | [code](https://github.com/W1V1995/AMP_Project))*
     - Large-scale tested peptides (196) with a success rate of 73%.
@@ -60,6 +55,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Painting Peptides with Antimicrobial Potency through Deep Reinforcement Learning (**Adv Sci 2025** | [code](https://github.com/ComputBiophys/AMPainter))*
+    - 🎈Our latest work
+    - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
+    - AMPainter relies solely on our antimicrobial score predictor to select sequences, rather than using a series of manually designed filter criteria.
+ 
+- *EBAMP: An efficient de novo broad-spectrum antimicrobial peptide discovery framework (**Cell Rep 2025** | [code](https://github.com/xinxinsus/EBAMP))*
+    - The only notable aspect is the large number of tested peptides (256). The success rate (37.5%) is low, even for generative models, yet they still provide a comparison table (Fig. 6M).
+    - Meanwhile, generating 50,000 candidate peptides is too much to show the capacity of their model. 
 
 - *Generative latent diffusion language modeling yields anti-infective synthetic peptides (**Cell Biomaterials 2025**)*
     - Experimental validation of the AMP-Diffusion model. Assembly line work.
