@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🥱 **Last Update** 25-09-10
+🫠 **Last Update** 25-09-17
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -56,6 +56,17 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Controllable Generation of Pathogen-Specific Antimicrobial Peptides Through Knowledge-Aware Prompt Diffusion Model (**Adv Sci 2025** | [code](https://github.com/wyky481l/KPPepGen))*
+    - Developing pathogen-specific peptides is a good point. Actually, most known AMPs can inhibit various pathogens due to a unified mechanism. I guess it’s hard to design selective peptides with current peptide data.
+    - ⁉️ I’m curious there were lots of docking results. **AMPs are usually associated with the membrane-disruptive mechanism**, which has been validated in many articles. However, they used protein-protein docking as the main validation approach in this article, even though they used an old TM_tend score (for transmembrane! and highly correlated with hydrophobicity) as a major comparative metric. **If generating specific target-binding AMPs is their aim, they should emphasize it.**
+      - It’s true that some AMPs can bind to protein targets, and PBPs are common antibacterial targets. But they should not choose them as validated target structures with no specific concern. Diverse proteins can be peptide-binding targets, and they did not even mention the protein name of their docking target in the main text, as well as the reasons for choosing them. (I have to say, at least they didn't say ‘LPS is a protein’…)
+      - I think it’s reasonable to assume that pathogen-specific AMPs are related to some protein targets of different species. However, the results in Fig 2 cannot say anything. What if other methods preferred membrane-active peptides with lower docking scores? Also, the difference in membrane composition can be attributed to specificity.
+      - Btw, using trRosetta for peptide structure and ZDOCK for protein-peptide docking is out of date.
+    - In experimental validation, it’s better to say focusing *E.coli* and *S.aureus* is because they are the top species in training data, instead of ‘clinically significant pathogens’. *A.baumannii, P.aeruginosa*, or else are much more significant.
+      - 2000 sequences were generated as exp candidates. Anyway, at least it’s better than 50,000.
+      - MIC indeed shows a certain degree of selectivity of these two bacteria, although activity levels are not impressive. And cell cytotoxicity is good.
+      - In the MIC assay, peptides should not solute in DMSO since it is harmful to cells, which may affect the antimicrobial results. I didn’t see a blank control with DMSO in the methods description, and I hoped they used water.
+
 - *Painting Peptides with Antimicrobial Potency through Deep Reinforcement Learning (**Adv Sci 2025** | [code](https://github.com/ComputBiophys/AMPainter))*
     - 🎈Our latest work
     - AMPainter is a reinforcement learning-based framework for the evolutionary design of AMPs. It can evolve AMPs from known AMPs, membrane-active signal peptides, and random sequences with an experimental hit rate exceeding 70%.
@@ -63,9 +74,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
  
 - *EBAMP: An efficient de novo broad-spectrum antimicrobial peptide discovery framework (**Cell Rep 2025** | [code](https://github.com/xinxinsus/EBAMP))*
     - The only notable aspect is the large number of tested peptides (256). The success rate (37.5%) is low, even for generative models, yet they still provide a comparison table (Fig. 6M).
-    - Meanwhile, generating 50,000 candidate peptides is too much to show the capacity of their model. 
+    - Meanwhile, generating 50,000 candidate peptides is too much to show the capacity of their model.
+    - ❓ There are several highly similar sequences among their 256 peptides. Mode collapse is observed for generator, as there are some repeated seqs like ‘FKKFKKFKKFKKFKKFK’, ‘LKLKLKLKLK’, and ‘LALALALALA’. In addition, bsa132 peptide has been found in the DRAMP.
 
-- *Generative latent diffusion language modeling yields anti-infective synthetic peptides (**Cell Biomaterials 2025**)*
+- *Generative latent diffusion language modeling yields anti-infective synthetic peptides (**Cell Biomaterials 2025** | [code](https://github.com/programmablebio/amp-diffusion))*
     - Experimental validation of the AMP-Diffusion model. Assembly line work.
 
 - *From AI-driven sequence generation to molecular simulation: a comprehensive framework for antimicrobial peptide discovery (**J Chem Inf Model 2025**)*
