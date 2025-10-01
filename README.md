@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🫠 **Last Update** 25-09-17
+⭕ **Last Update** 25-10-01
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -16,6 +16,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *A deep reinforcement learning platform for antibiotic discovery (**arXiv 2025**)*
+    - ❓“However, reinforcement learning has not yet been applied for antibiotic design”——RL has been widely used in small molecule design. For AMP generation, SeqGAN (essentially RL) has been used in several models, and RR-ADS (*J Med Chem 2025*) was published before my AMPainter (*Adv Sci 2025*). AMP-Designer also used RL to fine-tune the peptide generation model, which has been cited by them.
+    - APEX model itself is a MIC regressor. However, in this article they retrained a binary classifier ApexMIC for AMPs with high and low MIC. Why don’t they use regressor as rewards directly?
+    - The exp. success rate is great (100%), even though there were still lots of screening rules.
+    - I was confused by the supplementary figures 10-13 since these figs were not referred in the manuscript. They can only show the limitation of predicted MIC values.
  
 - *Large language models enable high-throughput mining and generation of antimicrobial peptidesagainst clinical superbugs (**Research Square 2025** | [code](https://github.com/W1V1995/AMP_Project))*
     - Large-scale tested peptides (196) with a success rate of 73%.
@@ -28,6 +34,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
       
 - *Predicting and generating antibiotics against future pathogens with ApexOracle (**arXiv 2025** | [code](https://github.com/DragonDescentZerotsu/ApexOracle))*
     - An upgrade of their APEX MIC predictor, with strain genome and text.
+
+- *Targeted AMP generation through controlled diffusion with efficient embeddings (**arXiv 2025**)*
+    - A conditioned diffusion model OmegAMP.
 
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
@@ -55,6 +64,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Deep Learning-Driven Discovery of Novel Antimicrobial Peptides from Large-Scale Protist Genomes and Experimental Characterization (**J Chem Inf Model 2025** | [code](https://github.com/liwenhaoj/protozoa_amp))*
 
 - *Controllable Generation of Pathogen-Specific Antimicrobial Peptides Through Knowledge-Aware Prompt Diffusion Model (**Adv Sci 2025** | [code](https://github.com/wyky481l/KPPepGen))*
     - Developing pathogen-specific peptides is a good point. Actually, most known AMPs can inhibit various pathogens due to a unified mechanism. I guess it’s hard to design selective peptides with current peptide data.
