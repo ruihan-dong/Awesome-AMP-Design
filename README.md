@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-⭕ **Last Update** 25-10-01
+🌧️ **Last Update** 25-10-08
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -17,16 +17,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Preprints
 
+- *PepCompass: Navigating peptide embedding spaces using Riemannian Geometry (**arXiv 2025**)*
+
 - *A deep reinforcement learning platform for antibiotic discovery (**arXiv 2025**)*
     - ❓“However, reinforcement learning has not yet been applied for antibiotic design”——RL has been widely used in small molecule design. For AMP generation, SeqGAN (essentially RL) has been used in several models, and RR-ADS (*J Med Chem 2025*) was published before my AMPainter (*Adv Sci 2025*). AMP-Designer also used RL to fine-tune the peptide generation model, which has been cited by them.
     - APEX model itself is a MIC regressor. However, in this article they retrained a binary classifier ApexMIC for AMPs with high and low MIC. Why don’t they use regressor as rewards directly?
     - The exp. success rate is great (100%), even though there were still lots of screening rules.
     - I was confused by the supplementary figures 10-13 since these figs were not referred in the manuscript. They can only show the limitation of predicted MIC values.
  
-- *Large language models enable high-throughput mining and generation of antimicrobial peptidesagainst clinical superbugs (**Research Square 2025** | [code](https://github.com/W1V1995/AMP_Project))*
-    - Large-scale tested peptides (196) with a success rate of 73%.
-    - Nothing special from the computational perspective. Some figure factors are directly from NBE 2023 or NBT 2022...
-
 - *PepSeek: Universal Functional Peptide Discovery with Cooperation Between Specialized Deep Learning Models and Large Language Model (**bioRxiv 2025**)*
     - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
     - Reward function of reinforcement learning model is really complex. How can we define the optimal value of each physicochemical property?
@@ -64,6 +62,13 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *A generative artificial intelligence approach for the discovery of antimicrobial peptides against multidrug-resistant bacteria (**Nat Microbiol 2025** | [code](https://github.com/W1V1995/AMP_Project))*
+    - The authors did classification (AMP and toxicity) and generation using the same GPT framework. Large-scale tested peptides (196) with a success rate of 73%.
+    - The authors claimed that AMPSorter can handle unnatural AAs - It’s easy to adding tokens. But it’s difficult to generalize to new seqs with such a data insufficiency.
+    - Mechanism experiments are sufficient, using a G- and a G+ drug-resistant strains. An RNA-seq data was also showed.
+    - By the way, I prefer the preprint title (Large language models enable high-throughput mining and generation of antimicrobial peptides against clinical superbugs).
+    - Some figure factors are directly from NBE 2023 or NBT 2022...
 
 - *Deep Learning-Driven Discovery of Novel Antimicrobial Peptides from Large-Scale Protist Genomes and Experimental Characterization (**J Chem Inf Model 2025** | [code](https://github.com/liwenhaoj/protozoa_amp))*
 
