@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌧️ **Last Update** 25-10-08
+🥶 **Last Update** 25-10-19
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -62,6 +62,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *DLFea4AMPGen de novo design of antimicrobial peptides by integrating features learned from deep learning models (**Nat Commun 2025** | [code](https://github.com/hgao12345/DLFea4AMPGen))*
+    - The anti-oxidative feature is a relatively rare aspect of AMPs.
+    - Baselines are out of date. This is somehow understandable. I guess the initial submission date is earlier than the displayed received date. Usually, the model training was finished much earlier.
+    - The main highlight of this article is the comprehensive SHAP analysis. As for the development of new AMPs, fixed-length (13AA is short) and fragment combinations hindered exploration in a larger space. The sequences of their candidate AMPs also showed this.
+    - ❗The bioactivities of candidate peptides were tested with a single concentration (128 μM). Since they just contained 13 residues, their concentrations in μg/mL are even larger than 128. MICs of only 2 peptides were reported. The same strategy was adopted for hemolysis and cytotoxicity tests.
 
 - *A generative artificial intelligence approach for the discovery of antimicrobial peptides against multidrug-resistant bacteria (**Nat Microbiol 2025** | [code](https://github.com/W1V1995/AMP_Project))*
     - The authors did classification (AMP and toxicity) and generation using the same GPT framework. Large-scale tested peptides (196) with a success rate of 73%.
@@ -308,6 +314,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+
+- *Pepxml: ESM2-based extreme multilabel classification of pathogen-targeted antimicrobial peptides(**Brief Bioinform 2025** | [code](https://github.com/YannanBin/PepXML))*
+  - PepXML may not be a good name, as it is a file format in proteomics...
 
 - *AI-Guided Discovery and Optimization of Antimicrobial Peptides Through Species-Aware Language Model (**Brief Bioinform 2025** | [code](https://github.com/GIST-CSBL/LLAMP))*
     - A species-aware MIC predictor from the AMP-BERT team, by adding genomes from different species
