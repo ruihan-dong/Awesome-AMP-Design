@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🥶 **Last Update** 25-10-19
+🥱 **Last Update** 25-10-29
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -55,13 +55,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and finetuned few-shot learning-based pipeline (**Research Square 2024**)*
     - The subsequent work of *Nat Biomed Eng* 2023, focusing on *A.baumannii*.
 - *MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor (**arXiv 2024**)*
-- *Key-cutting machine: A novel optimization framework for tailored protein and peptide design (**bioRxiv 2025**)*
 - *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
 
 
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Tailored structured peptide design with a key-cutting machine approach (**Nat Mach Intell 2025** | [code](https://github.com/LabBiocomp/KCM))*
+    - It's not a good idea to design AMP (or some short peptides) as a structure-based case. SSE of optimized AMPs cannot provide something new.
 
 - *DLFea4AMPGen de novo design of antimicrobial peptides by integrating features learned from deep learning models (**Nat Commun 2025** | [code](https://github.com/hgao12345/DLFea4AMPGen))*
     - The anti-oxidative feature is a relatively rare aspect of AMPs.
@@ -264,6 +266,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *Classifier-driven generative adversarial networks for enhanced antimicrobial peptide design (**Brief Bioinformatics 2025** | [code](https://github.com/aretiz/amp_de_novo_design_cdGAN))*
+  - A simple modification of Feedback GAN by training the extra classifier at the same time (dual-discriminator GAN?).
+  - FBGAN utilized DNA sequences to design AMPs, and this work did so. I think this step is somewhat redundant because we used chemical synthesis to produce AMPs rather than biological expression. Using cDNA increases the length and complexity.
 
 - *AMPGP: Discovering Highly Effective Antimicrobial Peptides via Deep Learning (**J Chem Inf Model 2025** | [code](http://github.com/Wu0805/AMPgeneration-prediction))*
 
