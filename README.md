@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-👾 **Last Update** 25-11-13
+📗 **Last Update** 25-11-21
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -16,6 +16,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *A Global Discovery of Antimicrobial Peptides in Deep-Sea Microbiomes Driven by an ESM-2 and Transformer-based Dual-Engine Framework (**bioRxiv 2025** | [code](https://github.com/Li-Lab-SJTU/XAMP))*
+  - A new source (deep sea microbiomes). Unfortunately, there is no experimental validation.
 
 - *PepCompass: Navigating peptide embedding spaces using Riemannian Geometry (**arXiv 2025**)*
 
@@ -324,9 +327,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Predictors
 
-❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers. 
+❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
 
-- *Pepxml: ESM2-based extreme multilabel classification of pathogen-targeted antimicrobial peptides(**Brief Bioinform 2025** | [code](https://github.com/YannanBin/PepXML))*
+- *Long short-term memory-based deep learning model for the discovery of antimicrobial peptides targeting Mycobacterium tuberculosis (**Bioinform Adv 2025** | [code](https://github.com/linfeng-wang/TB-AMP-design))*
+
+- *Pepxml: ESM2-based extreme multilabel classification of pathogen-targeted antimicrobial peptides (**Brief Bioinform 2025** | [code](https://github.com/YannanBin/PepXML))*
   - PepXML may not be a good name, as it is a file format in proteomics...
 
 - *AI-Guided Discovery and Optimization of Antimicrobial Peptides Through Species-Aware Language Model (**Brief Bioinform 2025** | [code](https://github.com/GIST-CSBL/LLAMP))*
