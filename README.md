@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-📗 **Last Update** 25-11-21
+🏗️ **Last Update** 25-11-26
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -27,6 +27,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - APEX model itself is a MIC regressor. However, in this article they retrained a binary classifier ApexMIC for AMPs with high and low MIC. Why don’t they use regressor as rewards directly?
     - The exp. success rate is great (100%), even though there were still lots of screening rules.
     - I was confused by the supplementary figures 10-13 since these figs were not referred in the manuscript. They can only show the limitation of predicted MIC values.
+
+- *Mechanism-driven screening of membrane-targeting and pore-forming antimicrobial peptides (**bioRxiv 2025**)*
+   - 🎈 Our group's work. The first predictor to recognize membrane-active AMPs, even though it was just an SVM.
  
 - *PepSeek: Universal Functional Peptide Discovery with Cooperation Between Specialized Deep Learning Models and Large Language Model (**bioRxiv 2025**)*
     - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
@@ -63,6 +66,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Unveiling novel antimicrobial peptides from the ruminant gastrointestinal microbiomes: A deep learning-driven approach yields an anti-MRSA candidate (**J Adv Res 2025**）*
+  - It's unusual that the authors set the maximum length to 300, which is significantly longer than peptides.
+  - It looks like Fig. 1 refers to AMP-BERT. By the way, ProtBERT-BFD has been widely used in AMP-related works since AMP-BERT used it. Why did they not test other pretrained language models?
+  - Comparison lacks some recent models as baselines.
+  - It's interesting to see coarse-grained umbrella sampling to calculate the PMF of membrane penetration.
 
 - *Rational screening of anti-E. coli peptides via GAT-MD integration leveraging foodborne antimicrobial sequence features (**Food Chem 2025**)*
   - Applications in food models are interesting.
@@ -247,6 +256,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *AI-driven discovery and design of antimicrobial peptides (**Sci. China Technol. Sci. 2025**)*
 - *Research Advance in the Development of Antimicrobial Peptides Using Deep Learning (**J Compt Chem 2025**)*
 - *Antimicrobial peptides: structure, functions and translational applications (**Nat Rev Microbiol 2025**)*
 - *Deep Learning in Antimicrobial Peptide Prediction (**J Chem Inf Model 2025**)*
