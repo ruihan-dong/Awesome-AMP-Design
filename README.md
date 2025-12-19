@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌀 **Last Update** 25-12-08
+☃️ **Last Update** 25-12-19
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -17,6 +17,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Preprints
 
+- *ClsDiff-AMP30: Generating Antimicrobial Peptides by a Classifier Guidance Noise Predictor (**bioRxiv 2025** | [code](https://github.com/jieluyan/ClsDiff-AMP30))*
+
 - *AI-driven discovery and optimization of antimicrobial peptides from extreme environments on global scale (**bioRxiv 2025** | [code](https://github.com/HUST-NingKang-Lab/SEGMA))*
 
 - *A Global Discovery of Antimicrobial Peptides in Deep-Sea Microbiomes Driven by an ESM-2 and Transformer-based Dual-Engine Framework (**bioRxiv 2025** | [code](https://github.com/Li-Lab-SJTU/XAMP))*
@@ -29,9 +31,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - APEX model itself is a MIC regressor. However, in this article they retrained a binary classifier ApexMIC for AMPs with high and low MIC. Why don’t they use regressor as rewards directly?
     - The exp. success rate is great (100%), even though there were still lots of screening rules.
     - I was confused by the supplementary figures 10-13 since these figs were not referred in the manuscript. They can only show the limitation of predicted MIC values.
-
-- *Mechanism-driven screening of membrane-targeting and pore-forming antimicrobial peptides (**bioRxiv 2025**)*
-   - 🎈 Our group's work. The first predictor to recognize membrane-active AMPs, even though it was just an SVM.
  
 - *PepSeek: Universal Functional Peptide Discovery with Cooperation Between Specialized Deep Learning Models and Large Language Model (**bioRxiv 2025**)*
     - Using general LLM like DeepSeek to predict MIC is beyond my recognition… As observed from Fig 2g, it’s true that the PCC value of proposed model is higher than other models, but all the predicted values are integers. Is that what we need?
@@ -68,6 +67,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Mechanism-driven screening of membrane-targeting and pore-forming antimicrobial peptides (**Adv Sci 2025** | [code](https://github.com/ComputBiophys/Pore-Forming_AMP_SVM))*
+   - 🎈 Our group's work. The first predictor to recognize membrane-active AMPs, even though it was just an SVM.
+   - Success rate is not high (39%).
 
 - *Unveiling novel antimicrobial peptides from the ruminant gastrointestinal microbiomes: A deep learning-driven approach yields an anti-MRSA candidate (**J Adv Res 2025**）*
   - It's unusual that the authors set the maximum length to 300, which is significantly longer than peptides.
