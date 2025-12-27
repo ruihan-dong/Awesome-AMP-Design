@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☃️ **Last Update** 25-12-19
+🧶 **Last Update** 25-12-27
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -45,9 +45,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
-      
-- *Design of highly potent anti-biofilm, antimicrobial peptides using explainable artificial intelligence (**bioRxiv 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
-    - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
 
 - *Proteasome-derived antimicrobial peptides discovered via deep learning (**bioRxiv 2025**)*
 
@@ -67,6 +64,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *AI agent-based discovery of D-enantiomeric antimicrobial peptides against multidrug-resistant bacterial infection (**Biomaterials 2026** |[code](https://github.com/kangluoyao/PeptiD-Agent))*
+  - D-AMP is a good topic with scarce data. However, designing all-D peptides is pretty easy when you already have lots of L-peptides... What's the rationale of using an LLM to design sequences?
+  - I'm curious how the author extracted the embedding of D-peptide from ESM2? ESM cannot handle D-peptide. It's just the feature of L-peptide. Again, I don't think it's reliable to predict their activity using LLM.
+  - Too redundant figures in Fig. 1. These regression scatter plots can only say their MIC prediction is inaccurate.
+
+- *Design of highly potent antibiofilm, antimicrobial peptides using explainable artificial intelligence (**J Chem Inf Model 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
+    - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
 
 - *Mechanism-driven screening of membrane-targeting and pore-forming antimicrobial peptides (**Adv Sci 2025** | [code](https://github.com/ComputBiophys/Pore-Forming_AMP_SVM))*
    - 🎈 Our group's work. The first predictor to recognize membrane-active AMPs, even though it was just an SVM.
