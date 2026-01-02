@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🧶 **Last Update** 25-12-27
+🎇 **Last Update** 26-01-02
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -16,6 +16,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *A global deep-sea small protein atlas reveals a reservoir of noncanonical antimicrobial peptides (**bioRxiv 2025**)*
+    - A mining work with highlights in new proteome sources. MIC results are not impressive, with lots of >125.
+    - Interestingly, the author concludes the intracellular mechanism of their mined AMPs instead of membrane-disrupting. On the one hand, it’s really ‘unconventional AMPs’ as a new finding. On the other hand, the main advantage of AMPs is their low likelihood of inducing resistance, which is due to the membrane-lytic mechanism. So what is the advantage of non-lytic AMPs?
 
 - *ClsDiff-AMP30: Generating Antimicrobial Peptides by a Classifier Guidance Noise Predictor (**bioRxiv 2025** | [code](https://github.com/jieluyan/ClsDiff-AMP30))*
 
@@ -292,6 +296,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *A novel generative framework for designing pathogen-targeted antimicrobial peptides with programmable physicochemical properties (**PLoS Comput Biol 2025** | [code](https://github.com/David-WZhao/AMPGen))*
+  - First, *E. coli* does not belong to ESKAPE…
+  - I have to say it’s my first time seeing docking with the membrane. Since the author already knows how to build a membrane using CHARMM-GUI, why not run a simple MD simulation?
+  - Btw, I’m also surprised my elife paper is cited for membrane composition... At least AMPredictor is worth being compared as an *E. coli* MIC predictor.
+  - What’s the ‘AMP-MIC’ in table 2?
+  - Pathogen-targeted AMP is a good point. I think it would be better to show selective activity towards the targeted bacteria (for example, the top 10 AMPs targeting *E. coli* have larger MIC against *S. aureus*). Anyway, I understand that a computational group might not have experimental conditions, but usually, just having predicted results isn't enough to convince readers.
+  - Github page not exist?
 
 - *Reinforcement learning with low-rank adaptation for targeted antimicrobial peptide design (**Brief Bioinformatics 2025** | [code](https://github.com/GIST-CSBL/AMP-RL))*
 
