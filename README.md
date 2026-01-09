@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🎇 **Last Update** 26-01-02
+😶‍🌫️ **Last Update** 26-01-09
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -68,6 +68,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *AI-guided precise design of antimicrobial polymers through high-throughput screening technology on an automated platform (**Bioact. Mater. 2026**)*
 
 - *AI agent-based discovery of D-enantiomeric antimicrobial peptides against multidrug-resistant bacterial infection (**Biomaterials 2026** |[code](https://github.com/kangluoyao/PeptiD-Agent))*
   - D-AMP is a good topic with scarce data. However, designing all-D peptides is pretty easy when you already have lots of L-peptides... What's the rationale of using an LLM to design sequences?
@@ -362,6 +364,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *PepGraphormer: An ESM-GAT hybrid deep learning framework for antimicrobial peptide prediction (**J Cheminformatics 2026** | [code](https://github.com/lincubator/PepGraphormer))*
 
 - *PlantAMP: A fine-tuned protein large language model for plant antimicrobial peptide prediction (**Plant Commun 2025** |[code](https://github.com/Chengzhi-Xie/PlantAMP))*
 
