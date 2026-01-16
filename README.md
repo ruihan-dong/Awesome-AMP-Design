@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-😶‍🌫️ **Last Update** 26-01-09
+❄️ **Last Update** 26-01-16
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -22,8 +22,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Interestingly, the author concludes the intracellular mechanism of their mined AMPs instead of membrane-disrupting. On the one hand, it’s really ‘unconventional AMPs’ as a new finding. On the other hand, the main advantage of AMPs is their low likelihood of inducing resistance, which is due to the membrane-lytic mechanism. So what is the advantage of non-lytic AMPs?
 
 - *ClsDiff-AMP30: Generating Antimicrobial Peptides by a Classifier Guidance Noise Predictor (**bioRxiv 2025** | [code](https://github.com/jieluyan/ClsDiff-AMP30))*
-
-- *AI-driven discovery and optimization of antimicrobial peptides from extreme environments on global scale (**bioRxiv 2025** | [code](https://github.com/HUST-NingKang-Lab/SEGMA))*
 
 - *A Global Discovery of Antimicrobial Peptides in Deep-Sea Microbiomes Driven by an ESM-2 and Transformer-based Dual-Engine Framework (**bioRxiv 2025** | [code](https://github.com/Li-Lab-SJTU/XAMP))*
   - A new source (deep sea microbiomes). Unfortunately, there is no experimental validation.
@@ -69,12 +67,19 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *AI-Based D-Amino Acid Substitution for Optimizing Antimicrobial Peptides to Treat Multidrug-Resistant Bacterial Infection (**Adv Sci 2026** |[code](https://github.com/EricwanAR/DAminoMuta))*
+    - A great perspective to approach the L/D-peptide issue. Collecting D-peptide data from the literature is a challenging task. The statistic in Fig 2B presents the low efficiency of experimental search well, but I didn’t find the detailed sequence and MIC data of ‘D-scan’ and ‘random’. Are they from the R2 test set?
+    - ‘SMILES’ should not be ‘SMILE’ in Fig 2D and in text. ‘SMILE image’ is a strange term because the molecule images are their chemical structures. They can be transformed from SMILES but they are not the images of SMILES strings. Btw, I have always been confused by some works like ImageMol or VideoMol…The structural images aren’t unique for each molecule.
+    - Experiments are comprehensive. I think there are two points to improve: 1) The improved stability induced by D-AA was not highlighted. The stability was not tested with HPLC or LC-MS directly. 2) Only 2 L-peptides with top 10 D-variants were measured. Maybe testing 10 L-peptides with their top 1 or 2 D-variants can show the ability of their predictor better.
+
 - *AI-guided precise design of antimicrobial polymers through high-throughput screening technology on an automated platform (**Bioact. Mater. 2026**)*
 
 - *AI agent-based discovery of D-enantiomeric antimicrobial peptides against multidrug-resistant bacterial infection (**Biomaterials 2026** |[code](https://github.com/kangluoyao/PeptiD-Agent))*
   - D-AMP is a good topic with scarce data. However, designing all-D peptides is pretty easy when you already have lots of L-peptides... What's the rationale of using an LLM to design sequences?
   - I'm curious how the author extracted the embedding of D-peptide from ESM2? ESM cannot handle D-peptide. It's just the feature of L-peptide. Again, I don't think it's reliable to predict their activity using LLM.
   - Too redundant figures in Fig. 1. These regression scatter plots can only say their MIC prediction is inaccurate.
+ 
+- *Discovery and optimization of antimicrobial peptides from extreme environments on global scale (**Brief Bioinformatics 2025** | [code](https://github.com/HUST-NingKang-Lab/SEGMA))*
 
 - *Design of highly potent antibiofilm, antimicrobial peptides using explainable artificial intelligence (**J Chem Inf Model 2025** | [code](https://github.com/Laboratoire-de-Chemoinformatique/GTM_WAE))*
     - WAE from CLaSS and GTM (generative topology mapping) for antibiofilm and antimicrobial analogs. Data preparation is ambiguous.
