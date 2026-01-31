@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-❄️ **Last Update** 26-01-16
+🦉 **Last Update** 26-01-31
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -66,6 +66,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Proteome-Mining and Chemical Activation of Hidden Bioactive Fragments as Antimicrobial Assemblies (**JACS 2026**)*
+   - An application of TransSAFP (*Nat Mater 2025*).
+
+- *Identification of antimicrobial peptides from ancient gut microbiomes (**Nat Commun 2026** | [code](https://github.com/ChenSizhe13893461199/AMPLiT))*
+  - An application of AMPidentifier (*Microbiome 2025*). 
 
 - *AI-Based D-Amino Acid Substitution for Optimizing Antimicrobial Peptides to Treat Multidrug-Resistant Bacterial Infection (**Adv Sci 2026** |[code](https://github.com/EricwanAR/DAminoMuta))*
     - A great perspective to approach the L/D-peptide issue. Collecting D-peptide data from the literature is a challenging task. The statistic in Fig 2B presents the low efficiency of experimental search well, but I didn’t find the detailed sequence and MIC data of ‘D-scan’ and ‘random’. Are they from the R2 test set?
@@ -369,6 +375,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *Motion as a Language: Transformer-Based Classification of Antimicrobial Peptide Conformational Dynamics (**JCTC 2026**)*
+  - I'm surprised that this kind of work can be published in JCTC...
 
 - *PepGraphormer: An ESM-GAT hybrid deep learning framework for antimicrobial peptide prediction (**J Cheminformatics 2026** | [code](https://github.com/lincubator/PepGraphormer))*
 
