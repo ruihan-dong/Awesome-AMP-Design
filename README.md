@@ -310,6 +310,13 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *SyAGram: Dual-Component Framework for Anti-Gram-Negative AMP Classification and Generation (**IEEE BIBM 2025**)*
+- *PepPFDPO: Multi-Objective Antimicrobial Peptide Generation using Pareto-Frontier Enhanced Direct Preference Optimization (**IEEE BIBM 2025** | [code](https://github.com/chen-bioinfo/PepPFDPO))*
+
+- *MOIRL: A Multi-Objective Inverse Reinforcement Learning-Driven Model for Therapeutic Peptide Generation (**IEEE BIBM 2025** | [code](https://github.com/Fingertips-li/MOIRL))*
+
+- *Multi-Task Prompt-Aware Therapeutic Peptide Generation by Protein Language Model (**IEEE BIBM 2025**)*
+
 - *A novel generative framework for designing pathogen-targeted antimicrobial peptides with programmable physicochemical properties (**PLoS Comput Biol 2025** | [code](https://github.com/David-WZhao/AMPGen))*
   - First, *E. coli* does not belong to ESKAPE…
   - I have to say it’s my first time seeing docking with the membrane. Since the author already knows how to build a membrane using CHARMM-GUI, why not run a simple MD simulation?
@@ -380,8 +387,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
   - I'm surprised that this kind of work can be published in JCTC...
 
 - *PepGraphormer: An ESM-GAT hybrid deep learning framework for antimicrobial peptide prediction (**J Cheminformatics 2026** | [code](https://github.com/lincubator/PepGraphormer))*
+  
+- *CAMERA: Cross-Feature Aligned Model for Recognizing Top Antimicrobial Peptides (**IEEE BIBM 2025** | [code](https://github.com/hydrogen599/CAMERA))*
+- *Universal Bioactive Peptide Recognition via Local-Aware Adaptive Global Sparse Attention (**IEEE BIBM 2025**)*
+- *xLSTM-AmPEP60: An xLSTM Model for the Minimum Inhibitory Concentrations Prediction of Antimicrobial Peptides (**IEEE BIBM 2025**)*
+- *MultiPepDec: Decoupled Prompt Learning for Multi-Activity Therapeutic Peptides (**IEEE BIBM 2025**)*
+- *TheraPepNet: Enhancing Therapeutic Peptide Recognition via Temporal Sequence Prediction Networks and Preprocessed Features (**IEEE BIBM 2025** | [code](https://github.comJEasyMing777/TheraPepNet))*
+- *PepKA-GNN: End-to-End Kolmogorov-Arnold Graph Neural Networks for Peptide Prediction (**IEEE BIBM 2025**)*
 
-- *PlantAMP: A fine-tuned protein large language model for plant antimicrobial peptide prediction (**Plant Commun 2025** |[code](https://github.com/Chengzhi-Xie/PlantAMP))*
+- *PlantAMP: A fine-tuned protein large language model for plant antimicrobial peptide prediction (**Plant Commun 2025** | [code](https://github.com/Chengzhi-Xie/PlantAMP))*
 
 - *Long short-term memory-based deep learning model for the discovery of antimicrobial peptides targeting Mycobacterium tuberculosis (**Bioinform Adv 2025** | [code](https://github.com/linfeng-wang/TB-AMP-design))*
 
