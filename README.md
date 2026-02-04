@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🦉 **Last Update** 26-02-04
+🚧 **Last Update** 26-02-04
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -16,9 +16,16 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - [Predictors](https://github.com/ruihan-dong/Awesome-AMP-Design?tab=readme-ov-file#predictors)
 
 ### 2025
+- [Comprehensive works](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/2025.md#comprehensive-works)
+- [Review](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/2025.md#review)
+- [Generators](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/2025.md#generators)
+- [Predictors](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/2025.md#predictors)
 
 ### Before 2025
-
+- [Comprehensive works](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/before2025.md#comprehensive-works)
+- [Review](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/before2025.md#review)
+- [Generators](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/before2025.md#generators)
+- [Predictors](https://github.com/ruihan-dong/Awesome-AMP-Design/blob/main/before2025.md#predictors)
 
 
 ## Preprints
