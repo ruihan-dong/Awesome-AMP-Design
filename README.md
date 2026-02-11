@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🚧 **Last Update** 26-02-04
+🧊 **Last Update** 26-02-11
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -71,14 +71,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *De novo multi-mechanism antimicrobial peptide design via multimodal deep learning (**bioRxiv 2024**)*
     - A really complex model with structures and limited strain/mechanism labels.
 
-- *Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and finetuned few-shot learning-based pipeline (**Research Square 2024**)*
-    - The subsequent work of *Nat Biomed Eng* 2023, focusing on *A.baumannii*.
 - *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
 
 
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and fine-tuned few-shot learning-based pipeline (**Nat Commun 2026** | [code](https://github.com/AI-X-explorers/anti_bau))*
+    - The subsequent work of *Nat Biomed Eng* 2023, focusing on *A.baumannii*. But the activity level of AMPs on *A.baumannii* are not good.
 
 - *Proteome-Mining and Chemical Activation of Hidden Bioactive Fragments as Antimicrobial Assemblies (**JACS 2026**)*
    - An application of TransSAFP (*Nat Mater 2025*).
@@ -111,6 +112,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *ANIA: an inception-attention network for predicting minimum inhibitory concentration of antimicrobial peptides (**Brief Bioinformatics 2026** | [code](https://github.com/SilverGojo4/ANIA))*
+
+- *SGAC: a graph neural network framework for imbalanced and structure-aware AMP classification (**Brief Bioinformatics 2026** | [code](https://github.com/wyxwyx46941930/SGAC))*
 
 - *Motion as a Language: Transformer-Based Classification of Antimicrobial Peptide Conformational Dynamics (**JCTC 2026**)*
   - I'm surprised that this kind of work can be published in JCTC...
