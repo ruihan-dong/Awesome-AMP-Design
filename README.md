@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🧊 **Last Update** 26-02-11
+🧧 **Last Update** 26-02-17
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -102,6 +102,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Harnessing AI for Antimicrobial Peptide Innovation against Multidrug Resistance (**JACS Au 2026**)*
 - *Reviewing the Artificial Intelligence Boost for Accelerating the Development of Novel Antimicrobial Peptides (**J Appl Microbiol 2026**)*
 
 
@@ -112,6 +113,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *A Dual Diffusion Model-based Representation Learning Framework for AMPs Classification (**Bioinformatics 2026** | [code](https://github.com/kww567upup/DDM))*
 
 - *ANIA: an inception-attention network for predicting minimum inhibitory concentration of antimicrobial peptides (**Brief Bioinformatics 2026** | [code](https://github.com/SilverGojo4/ANIA))*
 
