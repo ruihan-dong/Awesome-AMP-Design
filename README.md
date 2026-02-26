@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🧧 **Last Update** 26-02-17
+👒 **Last Update** 26-02-26
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -78,6 +78,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Unlocking the unexplored AMPSphere in marine rare species (**Microbiome 2026**)*
+
 - *Discovery of antimicrobial peptides targeting Acinetobacter baumannii via a pre-trained and fine-tuned few-shot learning-based pipeline (**Nat Commun 2026** | [code](https://github.com/AI-X-explorers/anti_bau))*
     - The subsequent work of *Nat Biomed Eng* 2023, focusing on *A.baumannii*. But the activity level of AMPs on *A.baumannii* are not good.
 
@@ -113,6 +115,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *PeptideNet: An Integrative Deep Learning Framework for Predicting Diverse Bioactive Peptides Using Protein Language Model Embeddings (**J Chem Inf Model 2026** | [code](https://github.com/HamzaZahidKhan0345/Peptide-Prediction-using-the-CNN-and-BiGRU))*
 
 - *A Dual Diffusion Model-based Representation Learning Framework for AMPs Classification (**Bioinformatics 2026** | [code](https://github.com/kww567upup/DDM))*
 
