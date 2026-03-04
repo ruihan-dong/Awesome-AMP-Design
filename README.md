@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-👒 **Last Update** 26-02-26
+☃️ **Last Update** 26-03-04
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -29,6 +29,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *Integrative Multi-Scale Sequence–Structure Modeling for Antimicrobial Peptide Prediction and Design (**bioRxiv 2026** | [code](https://github.com/jiayili11/multi-amp))*
+  - I've always wondered why many people are so fond of adding structural encoding for AMPs...
 
 - *A global deep-sea small protein atlas reveals a reservoir of noncanonical antimicrobial peptides (**bioRxiv 2025**)*
     - A mining work with highlights in new proteome sources. MIC results are not impressive, with lots of >125.
@@ -77,6 +80,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Uncovering evolutionarily remote and highly potent antimicrobial peptides with protein language models (**Nat Biomed Eng 2026** | [code](https://github.com/ml4bio/HMD-AMP))*
+  - The success rate of 52/62 (84%) is relatively high at the time of their submission. I have to say that things would become out of date after more than 1 year’s reviewing… such as an RF model and machine learning baselines.
+  - “57.7% （30/52） validated AMPs had less than 40% sequence identity to their closest training data” - it is not a high proportion, even it’s identity rather than similarity.
+  - The authors would like to claim the systemic infectious animal model is unique comparing with other AMP works. However, our elife work also used intraperitoneal infection animal (with *A.baumannii*), and our time of first online is earlier than their submission date.
 
 - *Unlocking the unexplored AMPSphere in marine rare species (**Microbiome 2026**)*
 
