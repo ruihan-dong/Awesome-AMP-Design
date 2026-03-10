@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☃️ **Last Update** 26-03-04
+🌷 **Last Update** 26-03-10
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -71,8 +71,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - The training set of cell-penetration predictor is weird - added toxic peptides into the negative set
     - I like Fig. 4A because it’s direct to see residues that contributed to antimicrobial activity as well as toxicity. Btw, the x-axis label should be F1A instead of A1F (same for other sites)
 - *A generative artificial intelligence approach for antibiotic optimization (**bioRxiv 2024** | [code](https://github.com/Yimeng-Zeng/APEXGo))*
-- *De novo multi-mechanism antimicrobial peptide design via multimodal deep learning (**bioRxiv 2024**)*
-    - A really complex model with structures and limited strain/mechanism labels.
 
 - *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
 
@@ -80,6 +78,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning (**Adv Sci 2026** |[code](https://github.com/haifangong/M3CAD))*
+  - Overall, I think the published version is significantly better than its preprint, with more validated peptides and mechanism experiments. However, I must say that when a study's design is not elegant enough, it often has to publish through sheer volume of work.
+  - Emphasizing the importance of 3D structures of peptides in models is not a good view — I think the authors also know that because they give a good positioning of AF2 structures in the discussion. Voxel-based encoding is an interesting approach, but it doesn’t reach its full potential on common canonical peptides. Helix or loop cannot provide much information for AMPs.
+  - The authors should be careful about their labels, especially the mechanism and toxicity: we have reviewed the membrane-related annotations in DBAASP. Unfortunately, much of them cannot provide actual experimental validation of mechanisms, and that’s the reason why we curated [MemAMPdb](http://www.songlab.cn/MemAMPdb/) manually. As for the toxicity, the authors labeled peptides without toxic annotations as non-toxic. It’s acceptable for negative samples when training a classifier, but this is not rigorous for a database. Lack of experimental data doesn’t mean a peptide is non-toxic.
+  - Ablation validation of the generation-regression-classification demonstrated the design pipeline, but it also means that the generator itself is not powerful.
+
+- *FungiGuard: identification of plant antifungal peptides with artificial intelligence (**Genome Biol 2026** | [code](https://github.com/yulab2021/FungiGuard))*
+  - We can still see the effect from NBT 2022 in 2026 now ...(Fig 2)
 
 - *Uncovering evolutionarily remote and highly potent antimicrobial peptides with protein language models (**Nat Biomed Eng 2026** | [code](https://github.com/ml4bio/HMD-AMP))*
   - The success rate of 52/62 (84%) is relatively high at the time of their submission. I have to say that things would become out of date after more than 1 year’s reviewing… such as an RF model and machine learning baselines.
@@ -123,6 +130,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *A Dual-Model Machine Learning Framework for Interpretable Design and Ensemble Prediction of C‑Amidated Antimicrobial Peptides (**ACS Appl. Mater. Interfaces 2026** |[code](https://huggingface.co/spaces/danghuyle/CAmidPred))*
+  - C-amide peptide is a good point. However, it's not a significant difference when using thresholds of 10 or 15 μM... It's even within the range of experimental error.
 
 - *PeptideNet: An Integrative Deep Learning Framework for Predicting Diverse Bioactive Peptides Using Protein Language Model Embeddings (**J Chem Inf Model 2026** | [code](https://github.com/HamzaZahidKhan0345/Peptide-Prediction-using-the-CNN-and-BiGRU))*
 
