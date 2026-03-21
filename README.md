@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌷 **Last Update** 26-03-10
+🌸 **Last Update** 26-03-21
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -79,6 +79,16 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Biochemical-knowledge-driven machine learning pipeline for generating potent antimicrobial peptides (**Brief Bioinformatics 2026**)*
+  - Generated sequences looks very similar. 
+
+- *Engineering Antimicrobial Peptides via Motif Assembly for Combating Multidrug-Resistant Pathogens (**J Med Chem 2026**)*
+  - The pipeline of aligning back is similar to a previous paper. 
+
+- *CAMPER: mechanistic artificial intelligence for designing peptides that target MRSA persisters (**Nat Commun 2026**)*
+  - Traditional machine learning models with lots of experiments. Persister is a good target.
+  - Waiting for the formal published version with a right Fig 1. 
+
 - *De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning (**Adv Sci 2026** |[code](https://github.com/haifangong/M3CAD))*
   - Overall, I think the published version is significantly better than its preprint, with more validated peptides and mechanism experiments. However, I must say that when a study's design is not elegant enough, it often has to publish through sheer volume of work.
   - Emphasizing the importance of 3D structures of peptides in models is not a good view — I think the authors also know that because they give a good positioning of AF2 structures in the discussion. Voxel-based encoding is an interesting approach, but it doesn’t reach its full potential on common canonical peptides. Helix or loop cannot provide much information for AMPs.
@@ -124,7 +134,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
-
+- *CoLPAT-AMP: A Transformer-Based framework for Designing novel antimicrobial peptides with property Awareness and partially controllable length (**Expert Syst. Appl. 2026**)*
 
 
 ## Predictors
