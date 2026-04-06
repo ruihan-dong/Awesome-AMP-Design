@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌸 **Last Update** 26-03-21
+🌷 **Last Update** 26-04-06
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -29,6 +29,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *Controllable generation of non-hemolytic antimicrobial peptides by multi-guided latent diffusion (**Research Square 2026** | [code](https://github.com/a646572837/NHAMP))*
 
 - *Integrative Multi-Scale Sequence–Structure Modeling for Antimicrobial Peptide Prediction and Design (**bioRxiv 2026** | [code](https://github.com/jiayili11/multi-amp))*
   - I've always wondered why many people are so fond of adding structural encoding for AMPs...
@@ -78,6 +80,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery (**Nat Commun 2026** | [code](https://github.com/BGI-METAI/Metagenome-AI))*
+  - Novel and large enough genome sources. The activity of mined AMPs are not good. 
 
 - *Biochemical-knowledge-driven machine learning pipeline for generating potent antimicrobial peptides (**Brief Bioinformatics 2026**)*
   - Generated sequences looks very similar. 
@@ -129,6 +134,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development (**Front. Bioinform. 2026**)*
 - *Harnessing AI for Antimicrobial Peptide Innovation against Multidrug Resistance (**JACS Au 2026**)*
 - *Reviewing the Artificial Intelligence Boost for Accelerating the Development of Novel Antimicrobial Peptides (**J Appl Microbiol 2026**)*
 
