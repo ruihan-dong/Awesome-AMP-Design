@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌷 **Last Update** 26-04-06
+🌧️ **Last Update** 26-04-08
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -140,6 +140,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching (**J Mol Graph Model 2026** | [code](https://github.com/AILBC/cflowamp))*
+  - The code repo is still empty.
+- *MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design (**ICLR 2026** | [code](https://github.com/CLMFAP/MAC-AMP_v1/))*
+  - A computationally conceptual validation using AMP as a case. 
+
 - *CoLPAT-AMP: A Transformer-Based framework for Designing novel antimicrobial peptides with property Awareness and partially controllable length (**Expert Syst. Appl. 2026**)*
 
 
@@ -147,7 +153,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
 
-- *A Dual-Model Machine Learning Framework for Interpretable Design and Ensemble Prediction of C‑Amidated Antimicrobial Peptides (**ACS Appl. Mater. Interfaces 2026** |[code](https://huggingface.co/spaces/danghuyle/CAmidPred))*
+- *A Dual-Model Machine Learning Framework for Interpretable Design and Ensemble Prediction of C‑Amidated Antimicrobial Peptides (**ACS Appl. Mater. Interfaces 2026** | [code](https://huggingface.co/spaces/danghuyle/CAmidPred))*
   - C-amide peptide is a good point. However, it's not a significant difference when using thresholds of 10 or 15 μM... It's even within the range of experimental error.
 
 - *PeptideNet: An Integrative Deep Learning Framework for Predicting Diverse Bioactive Peptides Using Protein Language Model Embeddings (**J Chem Inf Model 2026** | [code](https://github.com/HamzaZahidKhan0345/Peptide-Prediction-using-the-CNN-and-BiGRU))*
