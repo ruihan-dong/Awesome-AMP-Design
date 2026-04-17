@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌧️ **Last Update** 26-04-08
+🌫️ **Last Update** 26-04-17
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -29,6 +29,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *Modification-aware AI enables terminal chemical modifications for peptide design and discovers potent antimicrobials (**bioRxiv 2026** | [code](https://gitlab.com/joy1314bubian/capamp))*
+  - N/C-terminal amidation is the simplest modification to be designed. However, this may be the first paper to work on it.
+  - The generation works mentioned in the introduction are outdated, lacking many representative studies.
+  - Experiments are abundant, but the texts are long and just list the results.
 
 - *Controllable generation of non-hemolytic antimicrobial peptides by multi-guided latent diffusion (**Research Square 2026** | [code](https://github.com/a646572837/NHAMP))*
 
@@ -134,6 +139,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Artificial intelligence drives the identification and screening of novel antibiotics and antimicrobial peptides (**Brief Bioinformatics 2026**)*
 - *Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development (**Front. Bioinform. 2026**)*
 - *Harnessing AI for Antimicrobial Peptide Innovation against Multidrug Resistance (**JACS Au 2026**)*
 - *Reviewing the Artificial Intelligence Boost for Accelerating the Development of Novel Antimicrobial Peptides (**J Appl Microbiol 2026**)*
@@ -152,6 +158,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *Prediction of minimum inhibitory concentration of antibacterial peptides using geometric graph networks and dynamic loss functions (**Brief Bioinformatics 2026** | [code](https://github.com/LiJinYu1231/GGN-ABPMIC))*
+  - The code repo is empty.
 
 - *A Dual-Model Machine Learning Framework for Interpretable Design and Ensemble Prediction of C‑Amidated Antimicrobial Peptides (**ACS Appl. Mater. Interfaces 2026** | [code](https://huggingface.co/spaces/danghuyle/CAmidPred))*
   - C-amide peptide is a good point. However, it's not a significant difference when using thresholds of 10 or 15 μM... It's even within the range of experimental error.
