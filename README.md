@@ -35,6 +35,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
   - The generation works mentioned in the introduction are outdated, lacking many representative studies.
   - Experiments are abundant, but the texts are long and just list the results.
 
+- *XAMP: debiased dual-engine AI framework enables global discovery of antimicrobial peptides from deep-sea microbiomes (**bioRxiv 2025** | [code](https://github.com/Li-Lab-SJTU/XAMP))*
+  - A new source (deep sea microbiome).
+
 - *Controllable generation of non-hemolytic antimicrobial peptides by multi-guided latent diffusion (**Research Square 2026** | [code](https://github.com/a646572837/NHAMP))*
 
 - *Integrative Multi-Scale Sequence–Structure Modeling for Antimicrobial Peptide Prediction and Design (**bioRxiv 2026** | [code](https://github.com/jiayili11/multi-amp))*
@@ -45,9 +48,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Interestingly, the author concludes the intracellular mechanism of their mined AMPs instead of membrane-disrupting. On the one hand, it’s really ‘unconventional AMPs’ as a new finding. On the other hand, the main advantage of AMPs is their low likelihood of inducing resistance, which is due to the membrane-lytic mechanism. So what is the advantage of non-lytic AMPs?
 
 - *ClsDiff-AMP30: Generating Antimicrobial Peptides by a Classifier Guidance Noise Predictor (**bioRxiv 2025** | [code](https://github.com/jieluyan/ClsDiff-AMP30))*
-
-- *A Global Discovery of Antimicrobial Peptides in Deep-Sea Microbiomes Driven by an ESM-2 and Transformer-based Dual-Engine Framework (**bioRxiv 2025** | [code](https://github.com/Li-Lab-SJTU/XAMP))*
-  - A new source (deep sea microbiomes). Unfortunately, there is no experimental validation.
 
 - *PepCompass: Navigating peptide embedding spaces using Riemannian Geometry (**arXiv 2025**)*
 
