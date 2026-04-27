@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌫️ **Last Update** 26-04-17
+🍃 **Last Update** 26-04-27
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -139,6 +139,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Artificial intelligence in antibiotic discovery: Applications, challenges, and future outlook (**Cell Biomaterials 2026**)*
 - *Artificial intelligence drives the identification and screening of novel antibiotics and antimicrobial peptides (**Brief Bioinformatics 2026**)*
 - *Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development (**Front. Bioinform. 2026**)*
 - *Harnessing AI for Antimicrobial Peptide Innovation against Multidrug Resistance (**JACS Au 2026**)*
@@ -158,6 +159,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *KMLEE: A multimodal transformer for antimicrobial-peptide discovery (**Array 2026**)*
 
 - *Prediction of minimum inhibitory concentration of antibacterial peptides using geometric graph networks and dynamic loss functions (**Brief Bioinformatics 2026** | [code](https://github.com/LiJinYu1231/GGN-ABPMIC))*
   - The code repo is empty.
