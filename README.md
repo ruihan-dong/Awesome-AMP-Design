@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍃 **Last Update** 26-04-27
+🫣 **Last Update** 26-05-05
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -139,6 +139,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *From generation to validation: Deep generative models for antimicrobial peptide discovery (**Curr Opin Chem Biol 2026**)*
 - *Artificial intelligence in antibiotic discovery: Applications, challenges, and future outlook (**Cell Biomaterials 2026**)*
 - *Artificial intelligence drives the identification and screening of novel antibiotics and antimicrobial peptides (**Brief Bioinformatics 2026**)*
 - *Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development (**Front. Bioinform. 2026**)*
@@ -148,6 +149,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *PepGen-FB: Multi-functional antimicrobial peptide generation via curriculum learning–guided multi-objective feedback optimization (**Artificial Intelligence Chemistry 2026**)*
+  
 - *CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching (**J Mol Graph Model 2026** | [code](https://github.com/AILBC/cflowamp))*
   - The code repo is still empty.
 - *MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design (**ICLR 2026** | [code](https://github.com/CLMFAP/MAC-AMP_v1/))*
@@ -159,6 +162,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *CARS-AMP: A Simple and Efficient Deep Learning Model for Antimicrobial Peptide Prediction (**J Chem Inf Model 2026** | [code](https://github.com/gxykkk217/CARS-AMP))*
 
 - *KMLEE: A multimodal transformer for antimicrobial-peptide discovery (**Array 2026**)*
 
