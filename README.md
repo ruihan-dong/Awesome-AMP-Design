@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🫣 **Last Update** 26-05-05
+🫠 **Last Update** 26-05-12
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -86,6 +86,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Deep learning-driven integrated pipeline for de novo design and synthesis of antimicrobial peptides (**npj drug discovery 2026** | [code](https://github.com/jiahuu/AMP-generation))*
+
 - *The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery (**Nat Commun 2026** | [code](https://github.com/BGI-METAI/Metagenome-AI))*
   - Novel and large enough genome sources. The activity of mined AMPs are not good. 
 
@@ -139,6 +141,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Important progress in antimicrobial peptide prediction research in the past five years (**Ana Biochem 2026**)*
 - *From generation to validation: Deep generative models for antimicrobial peptide discovery (**Curr Opin Chem Biol 2026**)*
 - *Artificial intelligence in antibiotic discovery: Applications, challenges, and future outlook (**Cell Biomaterials 2026**)*
 - *Artificial intelligence drives the identification and screening of novel antibiotics and antimicrobial peptides (**Brief Bioinformatics 2026**)*
