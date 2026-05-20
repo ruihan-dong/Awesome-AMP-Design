@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🫠 **Last Update** 26-05-12
+👾 **Last Update** 26-05-20
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -77,7 +77,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - Multimodal represents cell-penetration and AMP - Did they consider that many known AMPs are already cell-penetration peptides?
     - The training set of cell-penetration predictor is weird - added toxic peptides into the negative set
     - I like Fig. 4A because it’s direct to see residues that contributed to antimicrobial activity as well as toxicity. Btw, the x-axis label should be F1A instead of A1F (same for other sites)
-- *A generative artificial intelligence approach for antibiotic optimization (**bioRxiv 2024** | [code](https://github.com/Yimeng-Zeng/APEXGo))*
 
 - *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
 
@@ -85,6 +84,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *A generative artificial intelligence approach for peptide antibiotic optimization (**Nat Mach Intell 2026** | [code](https://github.com/Yimeng-Zeng/APEXGo))*
+  - ApexGO for AMP optimization. A rationale approach (VAE + BO) for optimization in latent space.
+  - "85% ground-truth experimental hit rate and a 72% success rate in enhancing antimicrobial activity" - Actually, 85% hit rate is not exactly good because the starting point has already been AMPs, and it means that 15% optimized peptides become inactive. A 32-fold improvement in activity is not particularly impressive, either. For example, our AMPainter model (*Adv Sci 2025*) reported mostly 128-fold. Nevertheless, it's understandable because this work was posted on bioRxiv in 2024.
+  - Personally, I expect that they could discuss more from the aspect of computation, e.g., model settings, comparison to baselines, etc. 
 
 - *Deep learning-driven integrated pipeline for de novo design and synthesis of antimicrobial peptides (**npj drug discovery 2026** | [code](https://github.com/jiahuu/AMP-generation))*
 
@@ -165,6 +169,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *AMP-distillation: A knowledge distillation framework for accurate and efficient antimicrobial peptide prediction (**Comput Biol Chem** | [code](https://github.com/alirezakhorramfard/AMP)*)
 
 - *CARS-AMP: A Simple and Efficient Deep Learning Model for Antimicrobial Peptide Prediction (**J Chem Inf Model 2026** | [code](https://github.com/gxykkk217/CARS-AMP))*
 
