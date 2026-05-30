@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-👾 **Last Update** 26-05-20
+🔅 **Last Update** 26-05-30
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -29,6 +29,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *A Conditional Variational Autoencoder with QSAR-Guided Surrogate- Weighted Fine-Tuning and Cross-Entropy Optimization for Targeted Antimicrobial Peptide Generation (**bioRxiv 2026** | [code](https://github.com/Ismaelcasku/cvae-protgpt2-amp))*
 
 - *Modification-aware AI enables terminal chemical modifications for peptide design and discovers potent antimicrobials (**bioRxiv 2026** | [code](https://gitlab.com/joy1314bubian/capamp))*
   - N/C-terminal amidation is the simplest modification to be designed. However, this may be the first paper to work on it.
@@ -155,6 +157,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *Harnessing generative AI for predicting and optimizing antimicrobial peptides against drugresistant infections (**npj Antimicrob Resist 2026** | [code](https://imigitlab.uni-muenster.de/heiderlab/ampgpt2))*
 
 - *PepGen-FB: Multi-functional antimicrobial peptide generation via curriculum learning–guided multi-objective feedback optimization (**Artificial Intelligence Chemistry 2026**)*
   
