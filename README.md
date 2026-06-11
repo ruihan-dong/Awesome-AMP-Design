@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🔅 **Last Update** 26-05-30
+☀️ **Last Update** 26-06-11
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -86,6 +86,13 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *De Novo Design of Membrane-Targeting Antimicrobial Peptides Against Gram-Negative Bacteria Using a Generative Artificial Intelligence Framework (**Adv Sci 2026** | [code](https://github.com/JingxiaoYu1230/GenMTAMP))*
+  - “Targeting the Gram-negative bacterial outer membrane” should be an innovative point, but their results do not support that at all.
+  - Their so-called “targeting of the outer membrane” is based entirely on physicochemical properties, but there is no evidence that these properties are directly related to the mechanism.
+  - Also, the experiments cannot validate the generated AMPs targeting the Gram-negative outer membrane. MIC indicates inhibiting G- bacteria, and microscopy with PI staining indicates membrane targeting. However, they didn’t test MICs against G+ bacteria, and some results in the SI show that MTAMP003 and 004 have the same level of inhibition against G+ and G- bacteria. If no selectivity is shown, what’s the advantage of this specified targeting? Meanwhile, PI is a fluorescent dye for inner membrane disruption. No experiment is for the outer membrane.
+  - The membrane composition used in MD simulations is the inner membrane of G- bacteria. At least they can use a simplified outer membrane model with LPS. The first step in their proposed mechanism (Fig. 9g) is that AMP attaches to LPS, but no experimental proof for it in the article. This makes sense from a charge perspective, but it requires at least some experimental or simulation results to confirm.
+  - The only thing I can praise is Fig. 3g.
 
 - *A generative artificial intelligence approach for peptide antibiotic optimization (**Nat Mach Intell 2026** | [code](https://github.com/Yimeng-Zeng/APEXGo))*
   - ApexGO for AMP optimization. A rationale approach (VAE + BO) for optimization in latent space.
@@ -173,6 +180,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *PepAnno: A structure-aware deep learning framework for bioactive peptide prediction, structural visualization, and physicochemical profiling (**PLoS Comp Biol 2026** | [code](https://bis.zju.edu.cn/pepanno/))*
+  - The web server looks good.
 
 - *AMP-distillation: A knowledge distillation framework for accurate and efficient antimicrobial peptide prediction (**Comput Biol Chem** | [code](https://github.com/alirezakhorramfard/AMP)*)
 
