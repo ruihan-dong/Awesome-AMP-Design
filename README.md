@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☀️ **Last Update** 26-06-11
+☁️ **Last Update** 26-06-18
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -87,6 +87,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Dual-objective protein language model for discovery of non-hemolytic antimicrobial peptides from the bee-melectin sequence space (**Chem Eng J 2026** | [code](https://github.com/leofossilis/AMP_ML_data))*
+  - Nothing special for ML part but screening the truncated library of a peptide.
+
 - *De Novo Design of Membrane-Targeting Antimicrobial Peptides Against Gram-Negative Bacteria Using a Generative Artificial Intelligence Framework (**Adv Sci 2026** | [code](https://github.com/JingxiaoYu1230/GenMTAMP))*
   - “Targeting the Gram-negative bacterial outer membrane” should be an innovative point, but their results do not support that at all.
   - Their so-called “targeting of the outer membrane” is based entirely on physicochemical properties, but there is no evidence that these properties are directly related to the mechanism.
@@ -154,6 +157,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Structure, Interactions, and Assembly of Membrane-Active Antimicrobial Polypeptides (**Chem Rev 2026**)*
+  - The list isn't very complete in the ML/AI section.
+
 - *Important progress in antimicrobial peptide prediction research in the past five years (**Ana Biochem 2026**)*
 - *From generation to validation: Deep generative models for antimicrobial peptide discovery (**Curr Opin Chem Biol 2026**)*
 - *Artificial intelligence in antibiotic discovery: Applications, challenges, and future outlook (**Cell Biomaterials 2026**)*
@@ -165,6 +171,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *Agentic Discovery of Non-Canonical Antimicrobial Peptides with AMPGAN v3 (**ICML 2026 Workshop on Generative and Agentic AI for
+Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
+ - AMPGAN v3 and PepCraft agent workflow. AMPGAN v3 supports D-AA and some N/C-terminal modifications.
+  
 - *Harnessing generative AI for predicting and optimizing antimicrobial peptides against drugresistant infections (**npj Antimicrob Resist 2026** | [code](https://imigitlab.uni-muenster.de/heiderlab/ampgpt2))*
 
 - *PepGen-FB: Multi-functional antimicrobial peptide generation via curriculum learning–guided multi-objective feedback optimization (**Artificial Intelligence Chemistry 2026**)*
@@ -180,6 +190,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *MAPLE: interpretable deep learning identifies selective antimicrobial peptidesusing joint evolutionary–physicochemical analysis (**Brief Bioinformatics 2026** | [code](https://github.com/Harkool/MAPLE))*
 
 - *PepAnno: A structure-aware deep learning framework for bioactive peptide prediction, structural visualization, and physicochemical profiling (**PLoS Comp Biol 2026** | [code](https://bis.zju.edu.cn/pepanno/))*
   - The web server looks good.
