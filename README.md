@@ -30,7 +30,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Preprints
 
-- *A Conditional Variational Autoencoder with QSAR-Guided Surrogate- Weighted Fine-Tuning and Cross-Entropy Optimization for Targeted Antimicrobial Peptide Generation (**bioRxiv 2026** | [code](https://github.com/Ismaelcasku/cvae-protgpt2-amp))*
+- *A Conditional Variational Autoencoder with QSAR-Guided Surrogate-Weighted Fine-Tuning and Cross-Entropy Optimization for Targeted Antimicrobial Peptide Generation (**bioRxiv 2026** | [code](https://github.com/Ismaelcasku/cvae-protgpt2-amp))*
 
 - *Modification-aware AI enables terminal chemical modifications for peptide design and discovers potent antimicrobials (**bioRxiv 2026** | [code](https://gitlab.com/joy1314bubian/capamp))*
   - N/C-terminal amidation is the simplest modification to be designed. However, this may be the first paper to work on it.
@@ -175,7 +175,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
  - AMPGAN v3 and PepCraft agent workflow. AMPGAN v3 supports D-AA and some N/C-terminal modifications.
   
-- *Harnessing generative AI for predicting and optimizing antimicrobial peptides against drugresistant infections (**npj Antimicrob Resist 2026** | [code](https://imigitlab.uni-muenster.de/heiderlab/ampgpt2))*
+- *Harnessing generative AI for predicting and optimizing antimicrobial peptides against drug-resistant infections (**npj Antimicrob Resist 2026** | [code](https://imigitlab.uni-muenster.de/heiderlab/ampgpt2))*
 
 - *PepGen-FB: Multi-functional antimicrobial peptide generation via curriculum learning–guided multi-objective feedback optimization (**Artificial Intelligence Chemistry 2026**)*
   
@@ -191,7 +191,7 @@ Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
 
-- *MAPLE: interpretable deep learning identifies selective antimicrobial peptidesusing joint evolutionary–physicochemical analysis (**Brief Bioinformatics 2026** | [code](https://github.com/Harkool/MAPLE))*
+- *MAPLE: interpretable deep learning identifies selective antimicrobial peptides using joint evolutionary–physicochemical analysis (**Brief Bioinformatics 2026** | [code](https://github.com/Harkool/MAPLE))*
 
 - *PepAnno: A structure-aware deep learning framework for bioactive peptide prediction, structural visualization, and physicochemical profiling (**PLoS Comp Biol 2026** | [code](https://bis.zju.edu.cn/pepanno/))*
   - The web server looks good.
