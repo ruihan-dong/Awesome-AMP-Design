@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☁️ **Last Update** 26-06-18
+☔ **Last Update** 26-07-10
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -29,6 +29,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Preprints
+
+- *Pathogen context reshapes antimicrobial peptide generation (**bioRxiv 2026**)*
+- *BATTLE-AMP: Benchmarking Antimicrobial Peptide Predictors (**bioRxiv 2026** | [code](https://github.com/szczurek-lab/battleamp-snakemake))*
+  - Meaningful benchmark.
+
+- *MP2D: Constrained Monte Carlo Tree-Guided Diffusion for Multi-Objective Protein Sequence Design (**arXiv 2026**)*
+
+- *ProDCARL: Reinforcement Learning-Aligned Diffusion Models for De Novo Antimicrobial Peptide Design (**arXiv 2026**)*
 
 - *A Conditional Variational Autoencoder with QSAR-Guided Surrogate-Weighted Fine-Tuning and Cross-Entropy Optimization for Targeted Antimicrobial Peptide Generation (**bioRxiv 2026** | [code](https://github.com/Ismaelcasku/cvae-protgpt2-amp))*
 
@@ -87,6 +95,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Deep learning reveals antimicrobial peptides within prions (**Nat Microbiol 2026**)*
+  - An interesting source.
+  
 - *Dual-objective protein language model for discovery of non-hemolytic antimicrobial peptides from the bee-melectin sequence space (**Chem Eng J 2026** | [code](https://github.com/leofossilis/AMP_ML_data))*
   - Nothing special for ML part but screening the truncated library of a peptide.
 
