@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☔ **Last Update** 26-07-10
+☔ **Last Update** 26-07-11
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -95,6 +95,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Discovery of potent low-toxicity antimicrobial peptides through diffusion modeling (**Nat Commun 2026**| [code](https://github.com/IBPA/ARCADIAMP))*
+  
 - *Deep learning reveals antimicrobial peptides within prions (**Nat Microbiol 2026**)*
   - An interesting source.
   
@@ -182,6 +184,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Generators
 
+- *Multi-Property Optimization of Antimicrobial Peptides Using Reinforcement Learning and Conditional Independence Regularization (**IEEE TCBB 2026**)*
+  
 - *Agentic Discovery of Non-Canonical Antimicrobial Peptides with AMPGAN v3 (**ICML 2026 Workshop on Generative and Agentic AI for
 Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
  - AMPGAN v3 and PepCraft agent workflow. AMPGAN v3 supports D-AA and some N/C-terminal modifications.
@@ -201,6 +205,10 @@ Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *PepMCP: A Graph-Based Membrane Contact Probability Predictor for Membrane-Lytic Antimicrobial Peptides (**Bioinformatics 2026** | [code](https://github.com/ComputBiophys/PepMCP))*
+  - 🎈Our recent work, focusing on membrane-lytic AMPs.
+  - A membrane contact probability (MCP) predictor for peptides trained on large-scale MD simulation data.
 
 - *MAPLE: interpretable deep learning identifies selective antimicrobial peptides using joint evolutionary–physicochemical analysis (**Brief Bioinformatics 2026** | [code](https://github.com/Harkool/MAPLE))*
 
