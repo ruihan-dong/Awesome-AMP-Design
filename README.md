@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☔ **Last Update** 26-07-11
+🧃 **Last Update** 26-07-20
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -30,6 +30,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Preprints
 
+- *AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics (**bioRxiv 2026**)*
 - *Pathogen context reshapes antimicrobial peptide generation (**bioRxiv 2026**)*
 - *BATTLE-AMP: Benchmarking Antimicrobial Peptide Predictors (**bioRxiv 2026** | [code](https://github.com/szczurek-lab/battleamp-snakemake))*
   - Meaningful benchmark.
@@ -205,6 +206,8 @@ Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *tsAMP: a strain-level antimicrobial peptide identification framework based on large language models and pathogen genomic variation (**Front. Microbiol. 2026** | [code](https://github.com/YangLab-BUPT/tsAMP))*
 
 - *PepMCP: A Graph-Based Membrane Contact Probability Predictor for Membrane-Lytic Antimicrobial Peptides (**Bioinformatics 2026** | [code](https://github.com/ComputBiophys/PepMCP))*
   - 🎈Our recent work, focusing on membrane-lytic AMPs.
