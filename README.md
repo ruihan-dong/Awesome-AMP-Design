@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🧃 **Last Update** 26-07-20
+🫠 **Last Update** 26-07-26
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -171,6 +171,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Deep learning-driven strategies for the de novo design of membrane-targeting narrow-spectrum antimicrobial peptides (**Chem Eng J 2026**)*
 - *Structure, Interactions, and Assembly of Membrane-Active Antimicrobial Polypeptides (**Chem Rev 2026**)*
   - The list isn't very complete in the ML/AI section.
 
