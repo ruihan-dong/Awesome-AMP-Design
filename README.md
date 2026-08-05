@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🫠 **Last Update** 26-07-26
+🥂 **Last Update** 26-08-05
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -30,6 +30,15 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Preprints
 
+- *Evolutionary Design of Membrane-Lytic Antimicrobial Peptides with Mixture of Experts (**bioRxiv 2026** | [code](https://github.com/ComputBiophys/AMPainterV2))*
+  - 🎈 Our latest work AMPainterV2. Directly designing membrane-lytic AMPs using GAIL.
+  - MoE assists in integrating insertions and deletions for evolving AMPs from random sequences.
+  - Miniaturize AMPs with the deletion-only model.
+
+- *Computational evolutionary approach to generate antimicrobial peptides (**bioRxiv 2026**)*
+  - Manual substitution for pardaxin. ESMC embedding and PCA are just for analysis.
+- *AMPBench-MT: A Homology-Controlled Benchmark for Antimicrobial Peptide Potency, Spectrum, and Safety Prediction (**arXiv 2026** | [code](https://huggingface.co/datasets/ZihengZhou06/AMPBench-MT))*
+  
 - *AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics (**bioRxiv 2026**)*
 - *Pathogen context reshapes antimicrobial peptide generation (**bioRxiv 2026**)*
 - *BATTLE-AMP: Benchmarking Antimicrobial Peptide Predictors (**bioRxiv 2026** | [code](https://github.com/szczurek-lab/battleamp-snakemake))*
@@ -89,12 +98,14 @@ A list of articles and available codes of designing antimicrobial peptides (with
     - The training set of cell-penetration predictor is weird - added toxic peptides into the negative set
     - I like Fig. 4A because it’s direct to see residues that contributed to antimicrobial activity as well as toxicity. Btw, the x-axis label should be F1A instead of A1F (same for other sites)
 
-- *Design guidelines for α-helical peptides that self-assemble into transmembrane barrel pores killing antibiotic-resistant bacteria (**bioRxiv 2022**)*
-
 
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *Computational design of antimicrobial peptide nanopores (**Nat Chem Biol 2026**)*
+  - The preprint was posted on bioRxiv 4 years ago. It's published after adding animal tests.
+  - It's interesting to extract the design guidelines for self-assembly pore-forming AMPs.
 
 - *Discovery of potent low-toxicity antimicrobial peptides through diffusion modeling (**Nat Commun 2026**| [code](https://github.com/IBPA/ARCADIAMP))*
   
@@ -171,6 +182,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Machine learning for precision prediction of antimicrobial peptide activity and spectrum (**Biotech Adv 2026**)*
 - *Deep learning-driven strategies for the de novo design of membrane-targeting narrow-spectrum antimicrobial peptides (**Chem Eng J 2026**)*
 - *Structure, Interactions, and Assembly of Membrane-Active Antimicrobial Polypeptides (**Chem Rev 2026**)*
   - The list isn't very complete in the ML/AI section.
