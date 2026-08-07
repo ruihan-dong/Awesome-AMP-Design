@@ -108,6 +108,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
   - It's interesting to extract the design guidelines for self-assembly pore-forming AMPs.
 
 - *Discovery of potent low-toxicity antimicrobial peptides through diffusion modeling (**Nat Commun 2026**| [code](https://github.com/IBPA/ARCADIAMP))*
+  - Generative model is based on EvoDiff-D3PM.
+  - Use TI (LC50/MIC) as the training objective.
+  - 1 us MD shows Arcinin can insert into the membrane.
   
 - *Deep learning reveals antimicrobial peptides within prions (**Nat Microbiol 2026**)*
   - An interesting source.
