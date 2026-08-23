@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-👷‍♀️ **Last Update** 26-08-17
+🥱 **Last Update** 26-08-23
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -34,6 +34,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
   - 🎈 Our latest work AMPainterV2. Directly designing membrane-lytic AMPs using GAIL.
   - MoE assists in integrating insertions and deletions for evolving AMPs from random sequences.
   - Miniaturize AMPs with the deletion-only model.
+
+- *Ancient human mitochondrial genomes encode antimicrobial peptides (**bioRxiv 2026**)*
 
 - *AIGCRS-AMP30: AI Framework for Antimicrobial Peptide Generation, Classification, Regression, and Selection (**Research Square 2026** | [code](https://github.com/jieluyan/AIGCRS-AMP30))*
 
@@ -104,6 +106,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 ## Comprehensive works (with comments)
 
 *in silico* mining/generation + *in vitro/in vivo* validations
+
+- *A Closed-Loop Multimodal AI Framework for Discovering Surface-Active Antimicrobial Peptides (**Langmuir 2026**)*
+  - The core in framework is screening, instead of generation.
 
 - *Computational design of antimicrobial peptide nanopores (**Nat Chem Biol 2026**)*
   - The preprint was posted on bioRxiv 4 years ago. It's published after adding animal tests.
