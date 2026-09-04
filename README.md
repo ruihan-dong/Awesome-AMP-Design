@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🫥 **Last Update** 26-08-30
+🥷 **Last Update** 26-09-04
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -35,6 +35,13 @@ A list of articles and available codes of designing antimicrobial peptides (with
   - MoE assists in integrating insertions and deletions for evolving AMPs from random sequences.
   - Miniaturize AMPs with the deletion-only model.
 
+- *Designing antimicrobials with programmable mechanism and safety (**bioRxiv 2026** | [code](https://github.com/szczurek-lab/OmegAMP))*
+  - Controllable generation, but still relying on physicochemical properties.
+  - OmegAMP model (published in TMLR) with more complete experiments.
+
+- *PathoMIC: A Benchmark for Cross-Species Antimicrobial Peptide Activity Prediction (**arXiv 2026**)*
+  - Add semantic representation of pathogens.
+    
 - *Assessing the translation of AI-prioritized genome-derived peptide fragments into validated antimicrobial candidates (**bioRxiv 2026**)*
 
 - *Proteome-Scale Mining and Multi-Objective Prioritization of Encrypted Antimicrobial Peptides with Experimental Validation (**bioRxiv 2026**)*
@@ -93,9 +100,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
 - *Predicting and generating antibiotics against future pathogens with ApexOracle (**arXiv 2025** | [code](https://github.com/DragonDescentZerotsu/ApexOracle))*
     - An upgrade of their APEX MIC predictor, with strain genome and text.
 
-- *Targeted AMP generation through controlled diffusion with efficient embeddings (**arXiv 2025**)*
-    - A conditioned diffusion model OmegAMP.
-
 - *ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings (**arXiv 2025**)*
     - A flow-matching generative model with AMP generation as a task.
 
@@ -111,6 +115,11 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *AI agent-based discovery of antimicrobial peptides against multidrug-resistant gram-negative bacterial infection (**Eur J Med Chem 2026**)*
+  - Targeted peptide design.
+
+- *Redundancy-aware AI-guided discovery and experimental validation of antimicrobial peptides for infected wound treatment (**Eur J Med Chem 2026** | [code](https://github.com/YXYDYB/PepMutation))*
+    
 - *A Closed-Loop Multimodal AI Framework for Discovering Surface-Active Antimicrobial Peptides (**Langmuir 2026**)*
   - The core in framework is screening, instead of generation.
 
@@ -235,6 +244,8 @@ Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
 
+- *A unified framework for potency-oriented AMP discovery via multi-modal learning and guided sequence synthesis (**PLoS Comput Biol 2026** | [code](https://github.com/zhangwy49/Multi-Task-AMP-Discriminator-based-on-Multi-Scale-Feature-Fusion-and-AMP-Generator-Guided-by-MIC))*
+  
 - *PPsAMP: A Novel Computational Framework for Short Antimicrobial Peptide Identification by Fusing Fine-Tuned Semantic and Physicochemical Features via Cross-Attention (**J Chem Inf Model 2026**| [code](https://github.com/shengxiliu/PPsAMP))*
   
 - *tsAMP: a strain-level antimicrobial peptide identification framework based on large language models and pathogen genomic variation (**Front. Microbiol. 2026** | [code](https://github.com/YangLab-BUPT/tsAMP))*
