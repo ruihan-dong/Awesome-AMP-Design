@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🥷 **Last Update** 26-09-04
+🍵 **Last Update** 26-09-14
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -115,6 +115,10 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Mechanism-Guided Antimicrobial Peptide Design through Membrane-Surface Fingerprinting and Graph Diffusion (**J Chem Inf Model 2026** |[code](https://github.com/NHNQNHNQ/membrane-masif) [code](https://github.com/NHNQNHNQ/PepGraph-Diffusion))*
+  - - Developing Membrane-MaSIF for peptide-membrane interaction matching is a good approach in theory, regardless of the gap between the lipid bilayer model and real complex bacterial membranes. Meanwhile, the accuracy of peptide structural modeling is also crucial, since peptide structure may change in the membrane environment.
+  - Unfortunately the design case is optimization from known peptides. No mechanism validation is shown beyond MIC tests. It’s hard to say whether the AMP is targeting the outer membrane.
+
 - *AI agent-based discovery of antimicrobial peptides against multidrug-resistant gram-negative bacterial infection (**Eur J Med Chem 2026**)*
   - Targeted peptide design.
 
@@ -221,6 +225,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 
 ## Generators
+
+- *Controllable generation of predicted non‑hemolytic antimicrobial peptides by multi‑guided latent diffusion (**J Cheminformatics 2026** | [code](https://github.com/a646572837/NHAMP))*
 
 - *Multi-Property Optimization of Antimicrobial Peptides Using Reinforcement Learning and Conditional Independence Regularization (**IEEE TCBB 2026**)*
   
