@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍵 **Last Update** 26-09-14
+🍃 **Last Update** 26-10-05
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -209,6 +209,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *AI Prediction of Future Antibiotics: Genome-Predicted Antimicrobial Peptides Are Stained with the Amino Acid Signature of Man-Made Synthetic Peptides (**J Chem Inf Model 2026**)* (Letter)
+  - Important opinion.
 - *Artificial intelligence catalyzes antimicrobial peptide design (**Synth Syst Biotechnol 2026**)*
 - *Machine learning for precision prediction of antimicrobial peptide activity and spectrum (**Biotech Adv 2026**)*
 - *Deep learning-driven strategies for the de novo design of membrane-targeting narrow-spectrum antimicrobial peptides (**Chem Eng J 2026**)*
