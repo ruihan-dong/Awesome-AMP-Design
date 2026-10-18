@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🍃 **Last Update** 26-10-05
+🥶 **Last Update** 26-10-18
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -209,6 +209,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Lab to codes: multimodel advanced AI-driven pipelines to drive antimicrobial peptide design for the post-antibiotic era (**Front. Cell. Infect. Microbiol. 2026**)*
 - *AI Prediction of Future Antibiotics: Genome-Predicted Antimicrobial Peptides Are Stained with the Amino Acid Signature of Man-Made Synthetic Peptides (**J Chem Inf Model 2026**)* (Letter)
   - Important opinion.
 - *Artificial intelligence catalyzes antimicrobial peptide design (**Synth Syst Biotechnol 2026**)*
@@ -251,6 +252,14 @@ Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *Musical Peptide: Fragmentation of Musical Protein for AI-driven Bioactive Peptide Discovery Based on a New DeepPepQSAR Pipeline (**Interdiscip Sci Comput Life Sci 2026**)*
+  - ❓ ❓
+
+- *A Retrospective Benchmark of Quantitative Antimicrobial Peptide Activity Prediction Tools (**Small Methods 2026**)*
+  - Benchmark on MIC regressors.
+
+- *StructAMP: A Residual Multi-Modal Framework for Leakage-Controlled Antimicrobial Peptide Prediction (**IEEE TCBB 2026** | [code](https://github.com/SugarmanTUT/StructAMP/tree/main/StructAMP_GitHub))*
 
 - *A unified framework for potency-oriented AMP discovery via multi-modal learning and guided sequence synthesis (**PLoS Comput Biol 2026** | [code](https://github.com/zhangwy49/Multi-Task-AMP-Discriminator-based-on-Multi-Scale-Feature-Fusion-and-AMP-Generator-Guided-by-MIC))*
   
