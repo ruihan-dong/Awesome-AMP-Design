@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🥶 **Last Update** 26-10-18
+☂️ **Last Update** 26-10-25
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -115,6 +115,9 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *SMILES-Based Deep Learning Enables Discovery of Chemically Modified Ultrashort Antimicrobial Peptides (**J Med Chem 2026** | [code](https:///github.com/hugangao/SMAMP))*
+  - Only focusing on short peptides when considering modifications is a good point. 
+
 - *Mechanism-Guided Antimicrobial Peptide Design through Membrane-Surface Fingerprinting and Graph Diffusion (**J Chem Inf Model 2026** |[code](https://github.com/NHNQNHNQ/membrane-masif) [code](https://github.com/NHNQNHNQ/PepGraph-Diffusion))*
   - - Developing Membrane-MaSIF for peptide-membrane interaction matching is a good approach in theory, regardless of the gap between the lipid bilayer model and real complex bacterial membranes. Meanwhile, the accuracy of peptide structural modeling is also crucial, since peptide structure may change in the membrane environment.
   - Unfortunately the design case is optimization from known peptides. No mechanism validation is shown beyond MIC tests. It’s hard to say whether the AMP is targeting the outer membrane.
@@ -209,6 +212,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Computational Peptide Design: Emerging Concepts in Antibiotics, Immunity, and Evolution (**Annu Rev Microbiol 2026**)*
 - *Lab to codes: multimodel advanced AI-driven pipelines to drive antimicrobial peptide design for the post-antibiotic era (**Front. Cell. Infect. Microbiol. 2026**)*
 - *AI Prediction of Future Antibiotics: Genome-Predicted Antimicrobial Peptides Are Stained with the Amino Acid Signature of Man-Made Synthetic Peptides (**J Chem Inf Model 2026**)* (Letter)
   - Important opinion.
