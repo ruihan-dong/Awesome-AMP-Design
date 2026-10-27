@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-☂️ **Last Update** 26-10-25
+📿 **Last Update** 26-10-27
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -115,6 +115,8 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *De novo design of lipopeptides with antimicrobial potency enabled by a chain-as-prompt deep learning framework (**Nat Commun 2026** | [code](https://github.com/Kaxunka/AMLP))*
+
 - *SMILES-Based Deep Learning Enables Discovery of Chemically Modified Ultrashort Antimicrobial Peptides (**J Med Chem 2026** | [code](https:///github.com/hugangao/SMAMP))*
   - Only focusing on short peptides when considering modifications is a good point. 
 
@@ -212,6 +214,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *From code to cure: Harnessing AI for antibiotic discovery and design (**Sci. Transl. Med. 2026**)*
 - *Computational Peptide Design: Emerging Concepts in Antibiotics, Immunity, and Evolution (**Annu Rev Microbiol 2026**)*
 - *Lab to codes: multimodel advanced AI-driven pipelines to drive antimicrobial peptide design for the post-antibiotic era (**Front. Cell. Infect. Microbiol. 2026**)*
 - *AI Prediction of Future Antibiotics: Genome-Predicted Antimicrobial Peptides Are Stained with the Amino Acid Signature of Man-Made Synthetic Peptides (**J Chem Inf Model 2026**)* (Letter)
