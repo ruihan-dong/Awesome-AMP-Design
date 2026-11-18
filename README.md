@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌨️ **Last Update** 26-11-07
+🌬️ **Last Update** 26-11-18
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -115,6 +115,12 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 *in silico* mining/generation + *in vitro/in vivo* validations
 
+- *Surrogate-guided self-play Monte Carlo tree search for antimicrobial peptide sequence optimization and in vitro antibacterial assessment (**Brief Bioinformatics 2026** | [code](https://github.com/ncubiomedlab/SGSP-MCTS))*
+  - Using protein-peptide docking to validate AMP should be excluded in all AMP studies.
+
+- *Mapping the Tibetan Plateau microbiome across ecosystems provides a resource for biodiscovery (**Nat Microbiol 2026**)*
+    - New resources. Mining AMPs, CRISPR-Cas systems, and plastic-degrading enszymes, which are all popular mining targets.
+
 - *De novo design of lipopeptides with antimicrobial potency enabled by a chain-as-prompt deep learning framework (**Nat Commun 2026** | [code](https://github.com/Kaxunka/AMLP))*
 
 - *SMILES-Based Deep Learning Enables Discovery of Chemically Modified Ultrashort Antimicrobial Peptides (**J Med Chem 2026** | [code](https:///github.com/hugangao/SMAMP))*
@@ -214,6 +220,7 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 ## Review
 
+- *Engineering antimicrobial peptides through the design–build–test–learn framework (**FEMS Microbiology Reviews 2026**)*
 - *From code to cure: Harnessing AI for antibiotic discovery and design (**Sci. Transl. Med. 2026**)*
 - *Computational Peptide Design: Emerging Concepts in Antibiotics, Immunity, and Evolution (**Annu Rev Microbiol 2026**)*
 - *Lab to codes: multimodel advanced AI-driven pipelines to drive antimicrobial peptide design for the post-antibiotic era (**Front. Cell. Infect. Microbiol. 2026**)*
