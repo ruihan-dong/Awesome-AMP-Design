@@ -1,7 +1,7 @@
 # Awesome-AMP-Design
 A list of articles and available codes of designing antimicrobial peptides (with comments).
 
-🌬️ **Last Update** 26-11-18
+🤡 **Last Update** 26-11-25
 
 ❗**NOTE**: All comments below are personal opinions. Issues and discussions are welcome via github or emailing me at dongruihan_at_stu.pku.edu.cn
 
@@ -56,8 +56,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
   
 - *AllTheBacteria: a community resource empowers biology and discovers novel peptide antibiotics (**bioRxiv 2026**)*
 - *Pathogen context reshapes antimicrobial peptide generation (**bioRxiv 2026**)*
-- *BATTLE-AMP: Benchmarking Antimicrobial Peptide Predictors (**bioRxiv 2026** | [code](https://github.com/szczurek-lab/battleamp-snakemake))*
-  - Meaningful benchmark.
 
 - *MP2D: Constrained Monte Carlo Tree-Guided Diffusion for Multi-Objective Protein Sequence Design (**arXiv 2026**)*
 
@@ -72,8 +70,6 @@ A list of articles and available codes of designing antimicrobial peptides (with
 
 - *XAMP: debiased dual-engine AI framework enables global discovery of antimicrobial peptides from deep-sea microbiomes (**bioRxiv 2025** | [code](https://github.com/Li-Lab-SJTU/XAMP))*
   - A new source (deep sea microbiome).
-
-- *Controllable generation of non-hemolytic antimicrobial peptides by multi-guided latent diffusion (**Research Square 2026** | [code](https://github.com/a646572837/NHAMP))*
 
 - *Integrative Multi-Scale Sequence–Structure Modeling for Antimicrobial Peptide Prediction and Design (**bioRxiv 2026** | [code](https://github.com/jiayili11/multi-amp))*
   - I've always wondered why many people are so fond of adding structural encoding for AMPs...
@@ -268,6 +264,9 @@ Biology** | [code](https://github.com/marszzibros/AMPGANv3))*
 ## Predictors
 
 ❗**NOTE**: I didn’t list all the relevant works here since there are so many AMP predictors. And I’m not working on AMP classifiers.
+
+- *BATTLE-AMP: benchmarking antimicrobial peptide predictors (**Brief Bioinformatics 2026** | [code](https://github.com/szczurek-lab/battleamp-snakemake))*
+  - Meaningful benchmark.
 
 - *Structure-aware graph learning links peptide geometry to pathogen-specific antimicrobial potency (**Chem Commun 2026** | [code](https://github.com/erictang-source/GeoMIC))*
 
